@@ -1,5 +1,5 @@
 import { printLine } from './modules/print';
-import { extractAllText } from './util';
+import { extractAllText, extractAllAriaLabel } from './util';
 
 console.log('Content script works!');
 printLine("Using the 'printLine' function from the Print Module");
@@ -9,12 +9,14 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 
   if (request.action === 'extractText') {
     const selector = request.data.selector;
+    // 提取文本
     const text = extractAllText(selector);
+    const ariaLabel = extractAllAriaLabel(selector);
 
     // 发送响应
     sendResponse({
       data: {
-        text,
+        text: [...text, ...ariaLabel],
         pathname: window.location.pathname,
       },
     });

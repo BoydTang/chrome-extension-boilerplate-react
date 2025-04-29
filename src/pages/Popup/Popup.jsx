@@ -1,6 +1,6 @@
 import React from 'react';
 import './Popup.css';
-import { createKey, checkKeyExist, generateUniqueKey } from './util';
+import { generateUniqueKey } from './util';
 
 const Popup = () => {
   const [fullText, setFullText] = React.useState('');
@@ -34,15 +34,6 @@ const Popup = () => {
             // 设置文本框内容
             const text = currentText?.join('\n');
             resultDiv.value = text;
-
-            // 下载
-            // const blob = new Blob([fullText], { type: 'text/plain' });
-            // const url = URL.createObjectURL(blob);
-            // const a = document.createElement('a');
-            // a.href = url;
-            // a.download = `${path}.txt`;
-            // a.click();
-            // URL.revokeObjectURL(url);
           } else {
             resultDiv.textContent = '无法提取文本，请确保页面已完全加载。';
           }
@@ -61,8 +52,16 @@ const Popup = () => {
 
   const handleDownload = () => {
     // 下载
-    const path = currentPathname;
+    const pathArr = currentPathname
+      ?.replace(/\/reviews/, '')
+      ?.split('/')
+      ?.filter(Boolean);
+    const path = pathArr?.[pathArr?.length - 1] ?? 'home';
     const value = document.getElementById('formatResult').value;
+    if (!value || value === 'Something went wrong') {
+      alert('请先格式化文本');
+      return;
+    }
     const blob = new Blob([value], { type: 'text/plain' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
@@ -77,10 +76,12 @@ const Popup = () => {
     const targetContainer = document.getElementById('formatResult');
     const valueArr = formatText.split('\n');
     if (!valueArr?.length) {
-      targetContainer.value = 'something wrong';
+      alert('请先格式化文本');
       return;
     }
-    const res = valueArr
+    // 去重
+    const uniqueValueArr = [...new Set(valueArr)];
+    const res = uniqueValueArr
       .map((item) => {
         const key = generateUniqueKey(item, allText);
         if (!key) return;
@@ -103,11 +104,11 @@ const Popup = () => {
       <input
         type="text"
         id="selector"
-        placeholder="please enter a valid selector(default: .Polaris-Frame__Content)"
+        placeholder="Please enter a valid selector(default: .Polaris-Frame__Content)"
       />
       <div className="actionButton">
         <button onClick={handleClick}>Get all text in current pages</button>
-        <button onClick={handleCopy}>Copy all origin text</button>
+        <button onClick={handleCopy}>Copy all origin text in the left</button>
         <button onClick={handleFormatAndCopy}>format text for meerkat</button>
         <button onClick={handleDownload}>
           Download format text for meerkat
@@ -115,15 +116,15 @@ const Popup = () => {
       </div>
       <div className="Container">
         <textarea
-          name=""
+          name="result"
           id="result"
           onChange={handleChange}
           placeholder="Origin text"
         ></textarea>
         <textarea
-          name=""
+          name="formatResult"
           id="formatResult"
-          placeholder="format text"
+          placeholder="Format text"
         ></textarea>
       </div>
     </div>
