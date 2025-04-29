@@ -35,32 +35,3 @@
     transform: rotate(360deg);
   }
 }
-
-#result,
-#formatResult {
-  width: 295px;
-  height: 420px;
-}
-
-.Container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-#selector {
-  height: 36px;
-  width: 80%;
-  margin-bottom: 10px;
-}
-
-button {
-  height: 36px;
-  width: 140px;
-  margin-right: 10px;
-}
-
-.actionButton {
-  margin-bottom: 10px;
-}
