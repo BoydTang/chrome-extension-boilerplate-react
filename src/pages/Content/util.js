@@ -53,7 +53,7 @@ export function extractAllAriaLabel(selector) {
         acceptNode: function (node) {
           if (
             node.hasAttribute('aria-label') ||
-            element.hasAttribute('aria-labelledby')
+            node.hasAttribute('aria-labelledby')
           ) {
             return NodeFilter.FILTER_ACCEPT;
           }

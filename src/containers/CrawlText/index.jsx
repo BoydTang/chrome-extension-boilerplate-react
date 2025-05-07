@@ -6,7 +6,7 @@ const CrawlText = () => {
   const [fullText, setFullText] = React.useState('');
   const [allText, setAllText] = React.useState([]);
   const [currentPathname, setCurrentPathname] = React.useState('');
-  const handleClick = () => {
+  const handleGetAllText = () => {
     // 获取当前活动标签页
     chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
       // 向content script发送消息
@@ -107,7 +107,9 @@ const CrawlText = () => {
         placeholder="Please enter a valid selector(default: .Polaris-Frame__Content)"
       />
       <div className="actionButton">
-        <button onClick={handleClick}>Get all text in current pages</button>
+        <button onClick={handleGetAllText}>
+          Get all text in current pages
+        </button>
         <button onClick={handleCopy}>Copy all origin text in the left</button>
         <button onClick={handleFormatAndCopy}>format text for meerkat</button>
         <button onClick={handleDownload}>
