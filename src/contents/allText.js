@@ -1,6 +1,14 @@
 const allTexts = [
   // home page
   {
+    key: 'PENDIN_720EDA',
+    value: 'pending reviews to manage',
+  },
+  {
+    key: 'PENDIN_F61085',
+    value: 'pending questions to manage',
+  },
+  {
     key: 'WELCOM_985C0B',
     value: 'Welcome! Connect your store to get started',
   },
@@ -4219,14 +4227,6 @@ const allTexts = [
   {
     key: 'SETTIN_4E2395',
     value: 'Settings',
-  },
-  {
-    key: 'PENDIN_70CB5F',
-    value: 'pending reviews to manage',
-  },
-  {
-    key: 'PENDIN_5E86BD',
-    value: 'pending questions to manage',
   },
 ];
 
