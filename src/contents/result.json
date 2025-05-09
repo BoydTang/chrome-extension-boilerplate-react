@@ -1,5 +1,77 @@
 [
   {
+    "key": "WELCOM_985C0B",
+    "value": "Welcome! Connect your store to get started"
+  },
+  {
+    "key": "YOURE_CA777A",
+    "value": "You’re doing great!"
+  },
+  {
+    "key": "EXCELL_443A42",
+    "value": "Excellent work!"
+  },
+  {
+    "key": "KEEP_I_E1F18C",
+    "value": "Keep it going!"
+  },
+  {
+    "key": "CONNEC_09C228",
+    "value": "Connect store"
+  },
+  {
+    "key": "CONNEC_2746CD",
+    "value": "Connect your Shopify store to display customers reviews."
+  },
+  {
+    "key": "TO_REQ_B02C17",
+    "value": "to request new eCommerce platform integration."
+  },
+  {
+    "key": "FINISH_DE3C54",
+    "value": "Finish the reviews widget setup"
+  },
+  {
+    "key": "FINISH_945A42",
+    "value": "Finish the star ratings widget setup"
+  },
+  {
+    "key": "ENABLE_4BAA9A",
+    "value": "Enable star widget"
+  },
+  {
+    "key": "ENABLE_15A805",
+    "value": "Enable reviews widget"
+  },
+  {
+    "key": "FINISH_A7FC57",
+    "value": "Finish widget setup"
+  },
+  {
+    "key": "REVIEW_664DD1",
+    "value": "Review request emails enabled"
+  },
+  {
+    "key": "CUSTOM_614D28",
+    "value": "Customize emails"
+  },
+  {
+    "key": "CUSTOM_9AAE20",
+    "value": "Customize your post-purchase review request emails to collect more authentic reviews."
+  },
+  {
+    "key": "COLLEC_BCFA6A",
+    "value": "Collect product reviews"
+  },
+  {
+    "key": "COLLEC_2C69B3",
+    "value": "Collect reviews by emails or import reviews from third-party suppliers."
+  },
+  {
+    "key": "WELCOM_83218A",
+    "value": "Welcome"
+  },
+  {
     "key": "WELCOM_1A4417",
     "value": "Welcome,"
   },
@@ -22,10 +94,6 @@
   {
     "key": "SALES_EA66FE",
     "value": "SALES"
-  },
-  {
-    "key": "KEEP_I_ADDB5D",
-    "value": "Keep it going!"
   },
   {
     "key": "HURRAY_0EB33B",
@@ -2922,5 +2990,13 @@
   {
     "key": "IDEA_P_422CC5",
     "value": "Idea Portal"
+  },
+  {
+    "key": "PENDIN_70CB5F",
+    "value": "pending reviews to manage"
+  },
+  {
+    "key": "PENDIN_5E86BD",
+    "value": "pending questions to manage"
   }
 ]
