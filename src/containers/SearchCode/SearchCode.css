@@ -1,0 +1,26 @@
+.SearchCode,
+.searchContainer {
+  width: 100%;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+#searchStr {
+  height: 36px;
+  width: 60%;
+}
+
+.search,
+.copy {
+  height: 42px;
+  width: 18%;
+  margin-left: 10px;
+}
+
+#formatResult {
+  width: 98%;
+  height: 420px;
+}

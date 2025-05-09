@@ -216,6 +216,238 @@
     "value": "Manage, reply to, or share the reviews to build your social proof."
   },
   {
+    "key": "EXPORT_B68328",
+    "value": "Export reviews by CSV"
+  },
+  {
+    "key": "YOU_NE_A7D99D",
+    "value": "You need to connect your Shopify store."
+  },
+  {
+    "key": "CONNEC_90F14D",
+    "value": "Connect your store and view imported reviews."
+  },
+  {
+    "key": "PLEASE_FE3C01",
+    "value": "Please wait for the current export task to finish before exporting more reviews"
+  },
+  {
+    "key": "EXPORT_C48329",
+    "value": "Export in progress"
+  },
+  {
+    "key": "THIS_M_838F88",
+    "value": "This may take a while depending on the number of reviews."
+  },
+  {
+    "key": "REVIEW_DFDDBF",
+    "value": "Reviews exported successfully"
+  },
+  {
+    "key": "AN_EMA_507E0E",
+    "value": "An email with a download link was sent to {{email}}."
+  },
+  {
+    "key": "FAILED_3384FA",
+    "value": "Failed to export"
+  },
+  {
+    "key": "SOMETH_F32D20",
+    "value": "Something went wrong. Please try again."
+  },
+  {
+    "key": "THIS_M_1CCBF0",
+    "value": "This may take a while depending on the number of emails."
+  },
+  {
+    "key": "EMAILS_A36C25",
+    "value": "Emails exported successfully"
+  },
+  {
+    "key": "UNPUBL_0774E1",
+    "value": "Unpublished"
+  },
+  {
+    "key": "FROM_5DA618",
+    "value": "From"
+  },
+  {
+    "key": "CSV_UP_665E71",
+    "value": "CSV uploaded"
+  },
+  {
+    "key": "MANUAL_DDA388",
+    "value": "Manual email"
+  },
+  {
+    "key": "STOREF_F0DCA7",
+    "value": "Storefront"
+  },
+  {
+    "key": "NO_PRO_2E3DEB",
+    "value": "No products found"
+  },
+  {
+    "key": "TRY_CH_7ED394",
+    "value": "Try changing the search terms."
+  },
+  {
+    "key": "YOU_HA_716F53",
+    "value": "You haven't added any products to your store."
+  },
+  {
+    "key": "PRODUC_F5BF48",
+    "value": "product"
+  },
+  {
+    "key": "PRODUC_86024C",
+    "value": "products"
+  },
+  {
+    "key": "SELECT_EF7DE3",
+    "value": "selected"
+  },
+  {
+    "key": "STARS_A5DF37",
+    "value": "stars"
+  },
+  {
+    "key": "AUTO_P_DFABF0",
+    "value": "Auto-publish in"
+  },
+  {
+    "key": "PRODUC_1B8439",
+    "value": "Product review"
+  },
+  {
+    "key": "STORE_05C6EF",
+    "value": "Store review"
+  },
+  {
+    "key": "YOU_CA_BC3EAA",
+    "value": "You cannot edit, move or delete verified reviews."
+  },
+  {
+    "key": "SHARE_12D52D",
+    "value": "Share review"
+  },
+  {
+    "key": "MOVE_R_C6B918",
+    "value": "Move review"
+  },
+  {
+    "key": "DELETE_AA4F46",
+    "value": "Delete review"
+  },
+  {
+    "key": "VERIFI_52D229",
+    "value": "Verified reviews and Trustpilot reviews cannot be edited"
+  },
+  {
+    "key": "VERIFI_39061B",
+    "value": "Verified reviews and Trustpilot reviews cannot be deleted"
+  },
+  {
+    "key": "MARK_A_98BD07",
+    "value": "Mark as featured"
+  },
+  {
+    "key": "REMOVE_1B17ED",
+    "value": "Remove from featured"
+  },
+  {
+    "key": "DELETE_9D5670",
+    "value": "Delete selected reviews"
+  },
+  {
+    "key": "DELETE_5DA466",
+    "value": "Delete selected review"
+  },
+  {
+    "key": "YOU_CA_829A7D",
+    "value": "You can only delete a maximum of 50,000 reviews at one time. The first 50,000 selected reviews in the list will be deleted."
+  },
+  {
+    "key": "PLEASE_4B4507",
+    "value": "Please note that"
+  },
+  {
+    "key": "VERIFI_8CFD05",
+    "value": "verified reviews"
+  },
+  {
+    "key": "CANNOT_018961",
+    "value": "cannot be deleted and will be excluded from the total."
+  },
+  {
+    "key": "THIS_A_5D4C06",
+    "value": "This action cannot be undone."
+  },
+  {
+    "key": "UPDATE_B6995F",
+    "value": "Update reply"
+  },
+  {
+    "key": "UPDATE_6CD033",
+    "value": "Updated reply cannot be empty"
+  },
+  {
+    "key": "NOTIFY_C1864C",
+    "value": "Notify your customer by email"
+  },
+  {
+    "key": "YOUR_R_F8B23F",
+    "value": "Your reply will be automatically posted on {{Trustpilot}}. {{Trustpilot}} will send an automated email informing the reviewer of your reply."
+  },
+  {
+    "key": "MOVE_R_FDAF8F",
+    "value": "Move reviews to another product"
+  },
+  {
+    "key": "MOVE_R_3EE81F",
+    "value": "Move review to another product"
+  },
+  {
+    "key": "YOU_CA_8F688E",
+    "value": "You can only move a maximum of 50,000 reviews at one time. The first 50,000 selected reviews in the list will be moved."
+  },
+  {
+    "key": "CANNOT_BFBE72",
+    "value": "cannot be moved to a different product and will be skipped."
+  },
+  {
+    "key": "STORE_EF31BC",
+    "value": "store reviews"
+  },
+  {
+    "key": "AND_BE5D5D",
+    "value": "and"
+  },
+  {
+    "key": "CANNOT_0C2BFB",
+    "value": "cannot be moved to a different product."
+  },
+  {
+    "key": "YOU_CA_9795C9",
+    "value": "You can proceed with the rest of the reviews."
+  },
+  {
+    "key": "SELECT_805A17",
+    "value": "Select a product"
+  },
+  {
+    "key": "REVIEW_F5027E",
+    "value": "Review detail sheet"
+  },
+  {
+    "key": "ORDER_54E31B",
+    "value": "Order number"
+  },
+  {
+    "key": "REWARD_DE0978",
+    "value": "Reward coupon"
+  },
+  {
     "key": "ALL_RE_BB61F1",
     "value": "All reviews"
   },
@@ -488,8 +720,32 @@
     "value": "All"
   },
   {
+    "key": "STAR_A_256F69",
+    "value": "star and above"
+  },
+  {
     "key": "STAR_A_9D6058",
     "value": "1 star and above"
+  },
+  {
+    "key": "REVIEW_846623",
+    "value": "reviews collected from"
+  },
+  {
+    "key": "WILL_B_3AD322",
+    "value": "will be auto-published upon submission."
+  },
+  {
+    "key": "ALL_OT_393497",
+    "value": "All other reviews will be auto-published after"
+  },
+  {
+    "key": "14_DAY_3988CD",
+    "value": "14 days"
+  },
+  {
+    "key": "UNLESS_9C4F62",
+    "value": "unless you publish or unpublish them before then."
   },
   {
     "key": "REVIEW_BD055D",
@@ -510,10 +766,6 @@
   {
     "key": "FEATUR_5D3610",
     "value": "Featured reviews will appear on top of your review section."
-  },
-  {
-    "key": "DELETE_C67D4F",
-    "value": "Delete selected review"
   },
   {
     "key": "THE_SE_8B426F",
@@ -602,10 +854,6 @@
   {
     "key": "27_OF_199E2D",
     "value": "27 of 2000 characters used"
-  },
-  {
-    "key": "MOVE_R_F9D6AC",
-    "value": "Move review to another product"
   },
   {
     "key": "CONFIR_30F6DD",
@@ -1756,24 +2004,12 @@
     "value": "AUTO-PUBLISH REVIEWS"
   },
   {
-    "key": "REVIEW_C33C79",
-    "value": "reviews collected from"
-  },
-  {
     "key": "AUTOMA_45F440",
     "value": "automated emails and manual emails"
   },
   {
     "key": "WILL_B_B385D2",
     "value": "will be auto-published upon submission. All other reviews will be auto-published after"
-  },
-  {
-    "key": "14_DAY_AAD7E1",
-    "value": "14 days"
-  },
-  {
-    "key": "UNLESS_3D770B",
-    "value": "unless you publish or unpublish them before then."
   },
   {
     "key": "SUBJEC_8E07FE",
