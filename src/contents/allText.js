@@ -474,6 +474,290 @@ const allTexts = [
     value: `Edit reply`,
   },
   {
+    key: 'EMAILS_DCACE8',
+    value: `Emails paused`,
+  },
+  {
+    key: 'WERE_P_779F11',
+    value: `We're pausing emails now. This might take a while depending on the number of emails.`,
+  },
+  {
+    key: 'EMAILS_6C0D38',
+    value: `Emails deleted`,
+  },
+  {
+    key: 'WERE_D_A95D90',
+    value: `We're deleting emails now. This might take a while depending on the number of emails.`,
+  },
+  {
+    key: 'EMAILS_0ECF3A',
+    value: `Emails sent`,
+  },
+  {
+    key: 'WERE_S_737422',
+    value: `We're sending emails now. This might take a while depending on the number of emails.`,
+  },
+  {
+    key: 'EMAILS_C6D5C0',
+    value: `Emails resumed`,
+  },
+  {
+    key: 'WERE_R_3E340B',
+    value: `We're resuming paused emails now. This might take a while depending on the number of emails.`,
+  },
+  {
+    key: 'WERE_S_737422',
+    value: `We're sending emails now. This might take a while depending on the number of emails.`,
+  },
+  {
+    key: 'REVIEW_A6D00A',
+    value: `Reviews published`,
+  },
+  {
+    key: 'WERE_P_61211D',
+    value: `We're publishing reviews now. This might take a while depending on the number of reviews.`,
+  },
+  {
+    key: 'REVIEW_BE852B',
+    value: `Reviews unpublished`,
+  },
+  {
+    key: 'WERE_U_401ADB',
+    value: `We're unpublishing reviews now. This might take a while depending on the number of reviews.`,
+  },
+  {
+    key: 'REVIEW_2599C2',
+    value: `Reviews moved`,
+  },
+  {
+    key: 'WERE_M_1EEE21',
+    value: `We're moving reviews now. This might take a while depending on the number of reviews.`,
+  },
+  {
+    key: 'REVIEW_D5C84C',
+    value: `Reviews deleted`,
+  },
+  {
+    key: 'WERE_D_CA9BCD',
+    value: `We're deleting reviews now. This might take a while depending on the number of reviews.`,
+  },
+  {
+    key: 'REVIEW_931FC2',
+    value: `Reviews marked as featured reviews`,
+  },
+  {
+    key: 'WERE_M_3627FE',
+    value: `We're marking these reviews as featured reviews now. This might take a while depending on the number of reviews.`,
+  },
+  {
+    key: 'REVIEW_62F292',
+    value: `Reviews removed from featured reviews`,
+  },
+  {
+    key: 'WERE_R_3AEF2B',
+    value: `We're removing these reviews from featured reviews now. This might take a while depending on the number of reviews.`,
+  },
+  {
+    key: 'EMAILS_C0D55C',
+    value: `emails paused.`,
+  },
+  {
+    key: 'EMAIL_E4BC7E',
+    value: `email paused.`,
+  },
+  {
+    key: 'EMAILS_F9CD97',
+    value: `emails deleted.`,
+  },
+  {
+    key: 'EMAIL_50680B',
+    value: `email deleted.`,
+  },
+  {
+    key: 'EMAILS_24E814',
+    value: `emails sent.`,
+  },
+  {
+    key: 'EMAIL_3FCE36',
+    value: `email sent.`,
+  },
+  {
+    key: 'EMAILS_43C06D',
+    value: `emails have been resumed as scheduled.`,
+  },
+  {
+    key: 'EMAIL_17BCA3',
+    value: `email has been resumed as scheduled.`,
+  },
+  {
+    key: 'REVIEW_8D5A6D',
+    value: `reviews published.`,
+  },
+  {
+    key: 'REVIEW_02E039',
+    value: `review published.`,
+  },
+  {
+    key: 'REVIEW_25795B',
+    value: `reviews unpublished.`,
+  },
+  {
+    key: 'REVIEW_8693FD',
+    value: `review unpublished.`,
+  },
+  {
+    key: 'REVIEW_2E384F',
+    value: `reviews moved.`,
+  },
+  {
+    key: 'REVIEW_30719A',
+    value: `review moved.`,
+  },
+  {
+    key: 'REVIEW_219D3D',
+    value: `reviews deleted.`,
+  },
+  {
+    key: 'REVIEW_EEB260',
+    value: `review deleted.`,
+  },
+  {
+    key: 'REVIEW_BAE4A0',
+    value: `reviews marked as featured reviews.`,
+  },
+  {
+    key: 'REVIEW_783E86',
+    value: `review marked as featured review.`,
+  },
+  {
+    key: 'REVIEW_30B74F',
+    value: `reviews removed from featured reviews.`,
+  },
+  {
+    key: 'REVIEW_FD9979',
+    value: `review removed from featured review.`,
+  },
+  {
+    key: 'EMAILS_737153',
+    value: `emails failed to be paused.`,
+  },
+  {
+    key: 'EMAIL_307E62',
+    value: `email failed to be paused.`,
+  },
+  {
+    key: 'PLEASE_0B6EA1',
+    value: `Please try pausing those emails again.`,
+  },
+  {
+    key: 'EMAILS_A85A0E',
+    value: `emails failed to be deleted.`,
+  },
+  {
+    key: 'EMAIL_A83566',
+    value: `email failed to be deleted.`,
+  },
+  {
+    key: 'PLEASE_F7B5EB',
+    value: `Please try deleting those emails again.`,
+  },
+  {
+    key: 'EMAILS_ED3588',
+    value: `emails failed to send.`,
+  },
+  {
+    key: 'EMAIL_D0B1A3',
+    value: `email failed to send.`,
+  },
+  {
+    key: 'PLEASE_9A6A0B',
+    value: `Please try sending those emails again.`,
+  },
+  {
+    key: 'EMAILS_A5BBC6',
+    value: `emails failed to resume as scheduled.`,
+  },
+  {
+    key: 'EMAIL_C70DF0',
+    value: `email failed to resume as scheduled.`,
+  },
+  {
+    key: 'PLEASE_3360DD',
+    value: `Please try resuming those emails again.`,
+  },
+  {
+    key: 'REVIEW_A848E1',
+    value: `reviews failed to publish.`,
+  },
+  {
+    key: 'REVIEW_55E584',
+    value: `review failed to publish.`,
+  },
+  {
+    key: 'PLEASE_F3DF70',
+    value: `Please try publishing those reviews again.`,
+  },
+  {
+    key: 'REVIEW_A8161A',
+    value: `reviews failed to unpublish.`,
+  },
+  {
+    key: 'REVIEW_F6890F',
+    value: `review failed to unpublish.`,
+  },
+  {
+    key: 'PLEASE_BE7128',
+    value: `Please try unpublishing those reviews again.`,
+  },
+  {
+    key: 'REVIEW_D30508',
+    value: `reviews failed to move.`,
+  },
+  {
+    key: 'REVIEW_FB708D',
+    value: `review failed to move.`,
+  },
+  {
+    key: 'PLEASE_395C7B',
+    value: `Please try moving those reviews again.`,
+  },
+  {
+    key: 'REVIEW_C1E602',
+    value: `reviews failed to be deleted.`,
+  },
+  {
+    key: 'REVIEW_1C5674',
+    value: `review failed to be deleted.`,
+  },
+  {
+    key: 'PLEASE_E559CD',
+    value: `Please try deleting those reviews again.`,
+  },
+  {
+    key: 'REVIEW_08B5F7',
+    value: `reviews failed to be marked as featured reviews.`,
+  },
+  {
+    key: 'REVIEW_C97D8C',
+    value: `review failed to be marked as featured review.`,
+  },
+  {
+    key: 'PLEASE_ED5A5A',
+    value: `Please try marking those reviews as featured reviews again.`,
+  },
+  {
+    key: 'REVIEW_FA258F',
+    value: `reviews failed to be removed from featured reviews.`,
+  },
+  {
+    key: 'REVIEW_BF407E',
+    value: `review failed to be removed from featured review.`,
+  },
+  {
+    key: 'PLEASE_112A49',
+    value: `Please try removing those reviews from featured reviews again.`,
+  },
+  {
     key: 'ALL_RE_BB61F1',
     value: 'All reviews',
   },
