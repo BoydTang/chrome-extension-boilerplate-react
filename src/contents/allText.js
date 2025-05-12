@@ -1935,6 +1935,110 @@ const allTexts = [
   },
   // reviews-widget
   {
+    key: 'SAVED_F9219B',
+    value: 'Saved change.',
+  },
+  {
+    key: 'REMOVE_555682',
+    value: 'Remove "Powered by AfterShip"',
+  },
+  {
+    key: 'AFTER_S_FAF0EA',
+    value: 'AfterShip branding',
+  },
+  {
+    key: 'PRODUC_4D4614',
+    value: 'product reviews widget preview',
+  },
+  {
+    key: 'TO_DIS_222640',
+    value: 'To display the Q&A widget,',
+  },
+  {
+    key: 'YOU_NE_E20B4C',
+    value: 'you need to',
+  },
+  {
+    key: 'ENABLE_8CA706',
+    value: 'enable the Reviews widget',
+  },
+  {
+    key: 'FIRST_8B04D5',
+    value: 'first',
+  },
+  {
+    key: 'FOLLOW_881CF5',
+    value: 'Follow theme font',
+  },
+  {
+    key: 'TYPOGR_E48D77',
+    value: 'TYPOGRAPHY',
+  },
+  {
+    key: 'SIZE_6F6CB7',
+    value: 'Size',
+  },
+  {
+    key: 'PHOTOV_B21CBF',
+    value: 'Photo/video thumbnails',
+  },
+  {
+    key: 'APPLIE_64CEB2',
+    value: 'Applied in the split layout only.',
+  },
+  {
+    key: 'CORNER_CAB3EE',
+    value: 'Corner radius',
+  },
+  {
+    key: 'SPACIN_627B24',
+    value: 'Spacing',
+  },
+  {
+    key: 'STARS_D37C55',
+    value: 'Stars',
+  },
+  {
+    key: 'REVIEW_57EEE6',
+    value: 'Review cards',
+  },
+  {
+    key: 'TRANSP_3D9719',
+    value: 'Transparent',
+  },
+  {
+    key: 'WIDGET_BEDA25',
+    value: 'widget Header',
+  },
+  {
+    key: 'PRIMAR_F8985B',
+    value: 'Primary button',
+  },
+  {
+    key: 'STROKE_8E763D',
+    value: 'Stroke',
+  },
+  {
+    key: 'SECOND_641356',
+    value: 'Secondary button',
+  },
+  {
+    key: 'NONE_6ADF97',
+    value: 'None',
+  },
+  {
+    key: 'SMALL_266006',
+    value: 'Small',
+  },
+  {
+    key: 'MEDIUM_87F8A6',
+    value: 'Medium',
+  },
+  {
+    key: 'LARGE_3A69B3',
+    value: 'Large',
+  },
+  {
     key: 'REVIEW_E01C54',
     value: 'Reviews widget',
   },
