@@ -1278,6 +1278,10 @@ const allTexts = [
   },
   // all products
   {
+    key: 'VIEW_R_E8D524',
+    value: 'View review on your store label',
+  },
+  {
     key: 'ALL_PR_554C40',
     value: 'All products',
   },
@@ -1497,7 +1501,31 @@ const allTexts = [
   },
   // import reviews
   {
-    key: 'IMPORT_041E5F',
+    key: 'KEEP_D_171EF4',
+    value: 'Keep dragging the button to your bookmark bar.',
+  },
+  {
+    key: 'CTRL_D81464',
+    value: 'Ctrl (⌘ on Mac) + Shift + B',
+  },
+  {
+    key: 'CTRL_D81464',
+    value: 'Ctrl (⌘ on Mac) + B',
+  },
+  {
+    key: 'FILE_T_836B8C',
+    value: 'File type must be CSV',
+  },
+  {
+    key: 'FILE_C_59F4F0',
+    value: 'File cannot exceed 2 MB or 10,000 lines',
+  },
+  {
+    key: 'BYTES_4B3A62',
+    value: 'bytes',
+  },
+  {
+    key: 'CTRL_E5D0F7',
     value: 'Import reviews',
   },
   {
@@ -1630,8 +1658,112 @@ const allTexts = [
   },
   // question and answer
   {
-    key: 'QUESTI_66ED41',
-    value: 'Questions and answers',
+    key: 'NO_QUE_06639C',
+    value: 'No questions yet',
+  },
+  {
+    key: 'QUESTI_084B64',
+    value: 'Questions submitted by your customers will appear here.',
+  },
+  {
+    key: 'MAKE_S_71686A',
+    value: `Make sure you've enabled the`,
+  },
+  {
+    key: 'QA_WID_CA995C',
+    value: `Q&A widget`,
+  },
+  {
+    key: 'PRODUC_2BB8F3',
+    value: `products selected`,
+  },
+  {
+    key: 'PRODUC_12B711',
+    value: `product selected`,
+  },
+  {
+    key: 'POST_A_9C6368',
+    value: `Post answer`,
+  },
+  {
+    key: 'READ_M_2F1F97',
+    value: `Read more`,
+  },
+  {
+    key: 'ENTER_EE242B',
+    value: `Enter at least 10 characters`,
+  },
+  {
+    key: 'ENTER_EE242B',
+    value: `Update answer and publish`,
+  },
+  {
+    key: 'UPDATE_D8ADBA',
+    value: `Enter at least 10 characters`,
+  },
+  {
+    key: 'POST_A_8129AA',
+    value: 'Post answer and publish',
+  },
+  {
+    key: 'QUESTI_1DA57B',
+    value: 'Question published',
+  },
+  {
+    key: 'QUESTI_EA6803',
+    value: 'Question unpublished',
+  },
+  {
+    key: 'ONLY_Q_9E5605',
+    value: 'Only questions with answers can be published',
+  },
+  {
+    key: 'CHECK_976B71',
+    value: 'Check the box to proceed',
+  },
+  {
+    key: 'INVITA_471CFB',
+    value: 'Invitations sent',
+  },
+  {
+    key: 'MANUAL_EF11C7',
+    value: 'Manual invitations can be sent once per day',
+  },
+  {
+    key: 'INVITA_1A2D60',
+    value: 'Invitation email is currently under review',
+  },
+  {
+    key: 'DELETE_843FCB',
+    value: 'Delete question?',
+  },
+  {
+    key: 'ONCE_Y_16865F',
+    value: `Once you delete this question, it can't be recovered.`,
+  },
+  {
+    key: 'QUESTI_C503C0',
+    value: `Question deleted`,
+  },
+  {
+    key: 'DELETE_2E864F',
+    value: `Delete your answer?`,
+  },
+  {
+    key: 'ONCE_Y_7767E7',
+    value: `Once you delete your answer, it can't be recovered.`,
+  },
+  {
+    key: 'ANSWER_E7F3F9',
+    value: `Answer deleted`,
+  },
+  {
+    key: 'VERIFI_723AA8',
+    value: `verified`,
+  },
+  {
+    key: 'SEE_AL_FB0ECB',
+    value: `See all ({{count}}) answers`,
   },
   {
     key: 'REFRES_8309C2',
