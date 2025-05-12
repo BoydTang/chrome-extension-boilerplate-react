@@ -732,6 +732,46 @@
     "value": "Please try removing those reviews from featured reviews again."
   },
   {
+    "key": "SHOWIN_173748",
+    "value": "Showing {{limit}} of {{total}}"
+  },
+  {
+    "key": "DESELE_941860",
+    "value": "Deselect"
+  },
+  {
+    "key": "SELECT_D1E871",
+    "value": "Select all"
+  },
+  {
+    "key": "YOU_CA_F6B1C1",
+    "value": "You cannot move verified reviews and store reviews."
+  },
+  {
+    "key": "DELETE_92D6ED",
+    "value": "Delete review(s)"
+  },
+  {
+    "key": "MOVE_R_E792D4",
+    "value": "Move review(s)"
+  },
+  {
+    "key": "THE_EX_0E28D2",
+    "value": "The exported file will be sent via email."
+  },
+  {
+    "key": "OWNER_72122C",
+    "value": "(owner)"
+  },
+  {
+    "key": "RECIPI_5D6103",
+    "value": "Recipient"
+  },
+  {
+    "key": "PAGE_193CFC",
+    "value": "Page"
+  },
+  {
     "key": "ALL_RE_BB61F1",
     "value": "All reviews"
   },
@@ -2998,10 +3038,6 @@
   {
     "key": "MANAGE_F0C679",
     "value": "Manage"
-  },
-  {
-    "key": "OWNER_C77AE5",
-    "value": "(owner)"
   },
   {
     "key": "QUESTI_F1D547",
