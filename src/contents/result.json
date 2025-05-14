@@ -1800,6 +1800,106 @@
     "value": "Mobile screen"
   },
   {
+    "key": "COLLEC_FDFC85",
+    "value": "Collection page"
+  },
+  {
+    "key": "TITLE_C7E682",
+    "value": "Title page"
+  },
+  {
+    "key": "COPIED_67AE24",
+    "value": "Copied successfully"
+  },
+  {
+    "key": "INSTRU_49CC8E",
+    "value": "Instructions"
+  },
+  {
+    "key": "ADD_TO_13FDC6",
+    "value": "Add to page"
+  },
+  {
+    "key": "GO_TO_77E7F0",
+    "value": "Go to"
+  },
+  {
+    "key": "SHOPIF_A626E9",
+    "value": "Shopify Themes menu"
+  },
+  {
+    "key": "EDIT_C_989169",
+    "value": "Edit code"
+  },
+  {
+    "key": "IN_THE_F48573",
+    "value": "In the"
+  },
+  {
+    "key": "SECTIO_855C3E",
+    "value": "Sections"
+  },
+  {
+    "key": "DIRECT_5F8F22",
+    "value": "directory"
+  },
+  {
+    "key": "OPEN_7CEF8A",
+    "value": "open"
+  },
+  {
+    "key": "SEARCH_D11CC2",
+    "value": "Search for the"
+  },
+  {
+    "key": "LIQUID_49FC4B",
+    "value": "Liquid tag to find your product description in the file."
+  },
+  {
+    "key": "COPY_T_5F4861",
+    "value": "Copy the code below:"
+  },
+  {
+    "key": "PASTE_BF8DBF",
+    "value": "Paste it on the new line below the code that contains the"
+  },
+  {
+    "key": "LIQUID_CBA5C6",
+    "value": "Liquid tag"
+  },
+  {
+    "key": "CLICK_A672A2",
+    "value": "Click Save."
+  },
+  {
+    "key": "LOG_IN_746F62",
+    "value": "Log into AfterShip Reviews, refresh this page and click Enabled to activate star rating widget."
+  },
+  {
+    "key": "STAR_W_3403FF",
+    "value": "Star widget"
+  },
+  {
+    "key": "CONNEC_A1D1F4",
+    "value": "Connect your store before you enable the review widget."
+  },
+  {
+    "key": "YOU_NE_CC2818",
+    "value": "You need to insert code below to your Shopify theme manually."
+  },
+  {
+    "key": "ALTERN_4049FE",
+    "value": "Alternatively,"
+  },
+  {
+    "key": "TO_HEL_912BB1",
+    "value": "to help insert it to your theme for free."
+  },
+  {
+    "key": "SUPPOR_434990",
+    "value": "support"
+  },
+  {
     "key": "STAR_R_4957A3",
     "value": "Star ratings"
   },
@@ -1884,6 +1984,42 @@
     "value": "Here’s what it’ll look like"
   },
   {
+    "key": "ALL_RE_C5C9B9",
+    "value": "All reviews widget enabled"
+  },
+  {
+    "key": "ALL_RE_3DE0ED",
+    "value": "All reviews widget disabled"
+  },
+  {
+    "key": "FROM_Y_3D8894",
+    "value": "1. From your Shopify admin, go to"
+  },
+  {
+    "key": "GIVE_T_3ED568",
+    "value": "3. Give the page a title (e.g. \"Customer reviews\")."
+  },
+  {
+    "key": "IN_THE_F89968",
+    "value": "4. In the Content section, switch to the HTML editor and paste the following code:"
+  },
+  {
+    "key": "CLICK_AB890E",
+    "value": "5. Click \"Save\"."
+  },
+  {
+    "key": "DO_IT_E056ED",
+    "value": "Do it later"
+  },
+  {
+    "key": "GO_TO_305651",
+    "value": "Go to Shopify store"
+  },
+  {
+    "key": "HOW_TO_443882",
+    "value": "How to embed the all reviews widget on your store website"
+  },
+  {
     "key": "ALL_RE_23CD8A",
     "value": "All reviews widget"
   },
@@ -1894,10 +2030,6 @@
   {
     "key": "INSTAL_FA0AC7",
     "value": "Installation"
-  },
-  {
-    "key": "1_FROM_CFFE30",
-    "value": "1. From your Shopify admin, go to"
   },
   {
     "key": "SALES_989AC5",
