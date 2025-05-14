@@ -1935,6 +1935,367 @@ const allTexts = [
   },
   // reviews-widget
   {
+    key: 'SETTIN_DA8970',
+    value: 'Settings updated',
+  },
+  {
+    key: 'LAYOUT_EBD9BE',
+    value: 'Layout',
+  },
+  {
+    key: 'SLIDER_2D9B9A',
+    value: 'Slider',
+  },
+  {
+    key: 'GRID_5174D1',
+    value: 'Grid',
+  },
+  {
+    key: 'LIST_4EE29C',
+    value: 'List',
+  },
+  {
+    key: 'SPLIT_8A9E64',
+    value: 'Split',
+  },
+  {
+    key: 'FILTER_BBD29F',
+    value: 'Filter and sort',
+  },
+  {
+    key: 'FILTER_D7778D',
+    value: 'Filter',
+  },
+  {
+    key: 'SORT_6B46AE',
+    value: 'Sort',
+  },
+  {
+    key: 'DEFAUL_596A06',
+    value: 'Default sort',
+  },
+  {
+    key: 'MOST_R_744691',
+    value: 'Most relevant',
+  },
+  {
+    key: 'HIGHES_B2020E',
+    value: 'Highest ratings first',
+  },
+  {
+    key: 'LOWEST_3B2F79',
+    value: 'Lowest ratings first',
+  },
+  {
+    key: 'MOST_R_F3FE85',
+    value: 'Most recent',
+  },
+  {
+    key: 'MOST_H_03B6DE',
+    value: 'Most helpful',
+  },
+  {
+    key: 'WRITE_A11AF9',
+    value: 'Write a review button',
+  },
+  {
+    key: 'ENCOUR_72BDD1',
+    value:
+      'Encourage customers to leave reviews on your website by showing a "Write a review" button on your widget. You can customize your review form in',
+  },
+  {
+    key: 'ENCOUR_72BDD1',
+    value:
+      'Encourage customers to leave reviews on your website by showing a "Write a review" button on your widget. You can customize your review form in',
+  },
+  {
+    key: 'SETTIN_7DC22B',
+    value: 'setting',
+  },
+  {
+    key: 'SHOW_B_E0E33F',
+    value: 'Show button',
+  },
+  {
+    key: 'HIDE_B_E54267',
+    value: 'Hide button',
+  },
+  {
+    key: 'CUSTOM_E3727C',
+    value: 'Custom questions',
+  },
+  {
+    key: 'YOU_CA_21FAD1',
+    value: 'You can edit custom questions in',
+  },
+  {
+    key: 'SHOW_C_299BCA',
+    value: 'Show custom questions',
+  },
+  {
+    key: 'HIDE_C_E0B54F',
+    value: 'Hide custom questions',
+  },
+  {
+    key: 'ON_THE_3E3E34',
+    value:
+      'On the All reviews widget, answers to custom questions will only be shown in the review details.',
+  },
+  {
+    key: 'ANSWER_3067DB',
+    value:
+      'Answers to custom questions will be shown in the review details. Rating scale and slider question averages will be shown in widget headers. Question keys can be used to filter reviews.',
+  },
+  {
+    key: 'YOU_CA_D623F8',
+    value: 'You can edit the Q&A widget in the',
+  },
+  {
+    key: 'WANT_T_BD758E',
+    value: 'Want to include a Q&A section? Enable it in the',
+  },
+  {
+    key: 'QA_WID_08D71B',
+    value: 'Q&A widget settings',
+  },
+  {
+    key: 'SETTIN_DDF783',
+    value: 'Setting saved',
+  },
+  {
+    key: 'WIDGET_B4169A',
+    value: 'Widget header',
+  },
+  {
+    key: 'OVERAL_783022',
+    value: 'overall Rating',
+  },
+  {
+    key: 'USE_CU_D4978E',
+    value: 'Use custom images on product pages',
+  },
+  {
+    key: 'ADD_PR_AAAC3B',
+    value:
+      'Add product pages and use custom images for their widget header instead of the default header image',
+  },
+  {
+    key: 'SET_CU_A9740C',
+    value: 'Set custom images',
+  },
+  {
+    key: 'ALIGNM_A63706',
+    value: 'Alignment',
+  },
+  {
+    key: 'LEFT_945D5E',
+    value: 'Left',
+  },
+  {
+    key: 'CENTER_4F1F60',
+    value: 'Center',
+  },
+  {
+    key: 'SHOW_498F79',
+    value: 'Show',
+  },
+  {
+    key: 'HIDE_62A5E4',
+    value: 'Hide',
+  },
+  {
+    key: 'MEDIA_D5915A',
+    value: 'MEDIA GALLERY',
+  },
+  {
+    key: 'SHOW_O_C97EB6',
+    value:
+      'Show options apply to desktop only. Mobile will always show the media gallery below the star ratings.',
+  },
+  {
+    key: 'TRUSTS_A8BFB1',
+    value: 'TRUSTSCORE FROM TRUSTPILOT',
+  },
+  {
+    key: 'CONNEC_D798F7',
+    value: 'Connect your Trustpilot account to use this feature.',
+  },
+  {
+    key: 'CONNEC_49AB28',
+    value: 'Connect',
+  },
+  {
+    key: 'STAR_D_E09B8C',
+    value: 'Star distribution',
+  },
+  {
+    key: 'ON_THE_1F2E32',
+    value: 'On the same row',
+  },
+  {
+    key: 'ON_A_S_9F9E1C',
+    value: 'On a separate row',
+  },
+  {
+    key: 'SEARCH_6622C3',
+    value: 'Search by added products',
+  },
+  {
+    key: 'PRODUC_AC693F',
+    value: 'PRODUCT IMAGES',
+  },
+  {
+    key: 'ADD_CU_68152A',
+    value: 'Add custom image',
+  },
+  {
+    key: 'TRY_CH_EB8B4F',
+    value: 'Try changing the search terms or adding this product.',
+  },
+  {
+    key: 'SHOWS_2CE347',
+    value:
+      'Shows up to the 50 most recently edited pages. You can search for pages edited earlier.',
+  },
+  {
+    key: 'EDIT_C_62B5CA',
+    value: 'Edit custom image',
+  },
+  {
+    key: 'SELECT_FDADFD',
+    value: 'Select product',
+  },
+  {
+    key: 'SHOWIN_3E4A0D',
+    value: 'Showing {{count}} products',
+  },
+  {
+    key: 'SHOWIN_356D08',
+    value: 'Showing {{count}} product',
+  },
+  // upload image
+  {
+    key: 'FILE_S_168C9A',
+    value: 'File size cannot exceed {{size}}',
+  },
+  {
+    key: 'FILE_T_2641F0',
+    value: 'File type must be {{type}}',
+  },
+  {
+    key: 'IMAGE_597603',
+    value: 'Image not found',
+  },
+  {
+    key: 'PLEASE_3F8696',
+    value: 'Please try again.',
+  },
+  {
+    key: 'SUGGES_C07B1F',
+    value:
+      'Suggested dimensions: {{descriptionWidth}}(w) × {{descriptionHeight}}(h) pixels.',
+  },
+  {
+    key: 'MAX_FI_EA91B8',
+    value: 'Max. file size: 2 MB. Accepted formats: JPG/JPEG, GIF, and PNG.',
+  },
+  {
+    key: 'FAILED_EB0D08',
+    value: 'Failed to add image:',
+  },
+  {
+    key: 'SELECT_608D9D',
+    value: 'Select image',
+  },
+  {
+    key: 'OR_DRO_2E27B4',
+    value: 'or drop an image to upload',
+  },
+  {
+    key: 'UPLOAD_3F1C5B',
+    value: 'Uploading...',
+  },
+  {
+    key: 'THE_WR_1CA6D9',
+    value: `The "Write a review" button is hidden. Customers won't be able to submit reviews in your store.`,
+  },
+  {
+    key: 'CHOOSE_514F67',
+    value: `Choose what content to show in each review. You can also customize how some items are displayed.`,
+  },
+  {
+    key: 'MANAGE_F1AD5A',
+    value: `Manage display settings`,
+  },
+  {
+    key: 'COUNTR_46D7FB',
+    value: `Country/region flag`,
+  },
+  {
+    key: 'HELPFU_963729',
+    value: `Helpful button`,
+  },
+  {
+    key: 'VERIFI_A5F79F',
+    value: `Verified badge`,
+  },
+  {
+    key: 'IF_YOU_F26A92',
+    value: `If you've enabled referral discounts, anyone can use the sharing buttons to share existing reviews and get a referral coupon.`,
+  },
+  {
+    key: 'HELPFU_3C5DB2',
+    value: `Helpful`,
+  },
+  {
+    key: 'HELPFU_ECA7F5',
+    value: `Helpful / Unhelpful`,
+  },
+  {
+    key: 'DISCAR_D94B42',
+    value: `Discard`,
+  },
+  {
+    key: 'SETTIN_0D1BE3',
+    value: `Settings saved`,
+  },
+  {
+    key: 'THESE_CA4F1D',
+    value: `These settings will be applied to reviews in the`,
+  },
+  {
+    key: 'SHOW_F_456D1E',
+    value: `Show full name (e.g. Tony Johnson)`,
+  },
+  {
+    key: 'SHOW_F_8E2640',
+    value: `Show first name with last name initial (e.g. Tony J.)`,
+  },
+  {
+    key: 'SHOW_A_A0D587',
+    value: `Show anonymously (e.g. T***n)`,
+  },
+  {
+    key: 'REVIEW_1B385A',
+    value: `Review date format`,
+  },
+  {
+    key: 'BUTTON_921E86',
+    value: `Button format`,
+  },
+  {
+    key: 'VERIFI_035D2B',
+    value: `Verified badge format`,
+  },
+  {
+    key: 'CUSTOM_90589C',
+    value: `Custom`,
+  },
+  {
+    key: 'FORM_T_E795DF',
+    value: `Form title`,
+  },
+  {
     key: 'SAVED_F9219B',
     value: 'Saved change.',
   },
