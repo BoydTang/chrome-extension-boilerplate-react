@@ -1,4 +1,17 @@
 const allTexts = [
+  // components
+  {
+    key: 'DISCAR_2CFD85',
+    value: 'Discard changes?',
+  },
+  {
+    key: 'ARE_YO_69877E',
+    value: 'Are you sure you want to discard all unsaved changes?',
+  },
+  {
+    key: 'CONNEC_BEFA0A',
+    value: 'Connect your Shopify store to use AfterShip Reviews.',
+  },
   // home page
   {
     key: 'PENDIN_720EDA',
@@ -2625,6 +2638,127 @@ const allTexts = [
     value: '(opens a new window)',
   },
   // featured reviews
+  {
+    key: 'WIDGET_56109A',
+    value: 'Widget settings saved',
+  },
+  {
+    key: 'FEATUR_BA674C',
+    value: 'Featured Reviews Widget Mobile',
+  },
+  {
+    key: 'CLICK_A14C90',
+    value: 'Click to remove',
+  },
+  {
+    key: 'FEATUR_21021E',
+    value: 'Feature',
+  },
+  {
+    key: 'AT_LEA_47860C',
+    value: 'at least 1 review for the widget to show.',
+  },
+  {
+    key: 'YOU_CU_21678C',
+    value: 'You currently have',
+  },
+  {
+    key: 'FEATUR_7ABC5D',
+    value: 'featured reviews.',
+  },
+  {
+    key: 'ADD_AT_09A291',
+    value: 'Add at the',
+  },
+  {
+    key: 'TAB_TO_7C8F99',
+    value: 'tab to display them in your store.',
+  },
+  {
+    key: 'YOU_CU_CA80DD',
+    value:
+      'You currently have {{featuredReviewsNum}} featured reviews. Click the button below to view or manage them.',
+  },
+  {
+    key: 'ADD_FE_399D61',
+    value: 'Add featured reviews',
+  },
+  {
+    key: 'MANAGE_380427',
+    value: 'Manage featured reviews',
+  },
+  {
+    key: 'WIDGET_D7291D',
+    value: 'Widget title',
+  },
+  {
+    key: 'REVIEW_B033B5',
+    value: 'Review photos/videos',
+  },
+  {
+    key: 'PRODUC_D03BE9',
+    value: 'Product link',
+  },
+  {
+    key: 'VIEW_M_C0ABCC',
+    value: '"View more reviews" button',
+  },
+  {
+    key: 'HOME_P_877E59',
+    value: 'Home page',
+  },
+  {
+    key: 'CHOOSE_850D50',
+    value: 'Choose pages where you want to place the featured review widget.',
+  },
+  {
+    key: 'IT_WIL_B40CF2',
+    value: 'It will appear at the bottom of the page by default.',
+  },
+  {
+    key: 'YOU_MA_2B2872',
+    value: 'You may edit later at',
+  },
+  {
+    key: 'SHOPIF_CC25FF',
+    value: 'Shopify theme editor',
+  },
+  {
+    key: 'PAGES_453ACE',
+    value: 'Pages',
+  },
+  {
+    key: 'COULDN_1B69F3',
+    value: `Couldn't find the font you want?`,
+  },
+  {
+    key: 'CHAT_W_02DEBD',
+    value: `Chat with us`,
+  },
+  {
+    key: 'FEATUR_A1C69E',
+    value: `FEATURED REVIEWS`,
+  },
+  {
+    key: 'TITLE_E5511E',
+    value: `Title text`,
+  },
+  {
+    key: 'BODY_T_CC2263',
+    value: `Body text`,
+  },
+  {
+    key: 'SECTIO_7773EF',
+    value: `Section background`,
+  },
+  {
+    key: 'VERIFI_A76D84',
+    value: `Verified Badge`,
+  },
+  {
+    key: 'BADGE_94E650',
+    value: `Badge background`,
+  },
   {
     key: 'FEATUR_E796CA',
     value: 'Featured reviews widget',
