@@ -1,5 +1,9 @@
 [
   {
+    "key": "UNSAVE_2EE0D3",
+    "value": "Unsaved changes"
+  },
+  {
     "key": "DISCAR_2CFD85",
     "value": "Discard changes?"
   },
@@ -2456,6 +2460,50 @@
     "value": "Here’s what it’ll look like"
   },
   {
+    "key": "STORE_2DD617",
+    "value": "Store and product reviews"
+  },
+  {
+    "key": "STORE_66BF63",
+    "value": "Store reviews only"
+  },
+  {
+    "key": "PRODUC_EF44AA",
+    "value": "Product reviews only"
+  },
+  {
+    "key": "REVIEW_78B285",
+    "value": "Review display"
+  },
+  {
+    "key": "REVIEW_436288",
+    "value": "Review tabs"
+  },
+  {
+    "key": "DEFAUL_338076",
+    "value": "Default tab"
+  },
+  {
+    "key": "REVIEW_309434",
+    "value": "Review our store button"
+  },
+  {
+    "key": "ENCOUR_22EB04",
+    "value": "Encourage customers to leave store reviews on your website with a \"Review our store\" button."
+  },
+  {
+    "key": "YOU_CA_B117C9",
+    "value": "You can customize your review form in"
+  },
+  {
+    "key": "SHOW_T_9D18EC",
+    "value": "Show the Review our store button first"
+  },
+  {
+    "key": "REVIEW_8F049D",
+    "value": "reviews per page"
+  },
+  {
     "key": "ALL_RE_C5C9B9",
     "value": "All reviews widget enabled"
   },
@@ -2540,8 +2588,56 @@
     "value": "5. Click \"Add section\", select the All reviews widget, and click \"Save\"."
   },
   {
+    "key": "CUSTOM_106756",
+    "value": "Customers who upload photos or a video will receive the Tier 2 or Tier 3 reward coupon respectively."
+  },
+  {
+    "key": "CUSTOM_EEF918",
+    "value": "Customers who upload photos or a video will receive the Tier 2 reward coupon."
+  },
+  {
+    "key": "CUSTOM_9EEE12",
+    "value": "Customers who upload a video will receive the Tier 3 reward coupon."
+  },
+  {
+    "key": "SEND_T_A56DD8",
+    "value": "Send this coupon to a customer after they submit a review that includes photos. Customers who upload a video will receive the Tier 3 reward coupon."
+  },
+  {
     "key": "REWARD_112814",
     "value": "Rewards program"
+  },
+  {
+    "key": "SAVED_807F7C",
+    "value": "Saved successfully"
+  },
+  {
+    "key": "THIS_D_2948EB",
+    "value": "This discount value is below the average."
+  },
+  {
+    "key": "INCREA_E69913",
+    "value": "Increase it to {{suggestedDiscount}}%"
+  },
+  {
+    "key": "TO_BOO_6C728A",
+    "value": "to boost review sharing!"
+  },
+  {
+    "key": "OFF_3262D4",
+    "value": "off"
+  },
+  {
+    "key": "FREE_S_517537",
+    "value": "free shipping"
+  },
+  {
+    "key": "TO_ALL_D0B7F7",
+    "value": "To allow customers to upload videos, enable review videos for your review form in"
+  },
+  {
+    "key": "SETTIN_2E5D8A",
+    "value": "settings"
   },
   {
     "key": "INCENT_9ECD42",
@@ -2608,6 +2704,74 @@
     "value": "content"
   },
   {
+    "key": "STARS_DE165A",
+    "value": "2 stars and above reviews"
+  },
+  {
+    "key": "STARS_B4F31C",
+    "value": "3 stars and above reviews"
+  },
+  {
+    "key": "STARS_0CC124",
+    "value": "4 stars and above reviews"
+  },
+  {
+    "key": "ONLY_S_7F705E",
+    "value": "Only 5 stars reviews"
+  },
+  {
+    "key": "TO_ENA_99DC43",
+    "value": "To enable the referral program for this method, you need to"
+  },
+  {
+    "key": "ENABLE_194B05",
+    "value": "enable sharing buttons"
+  },
+  {
+    "key": "ON_YOU_CE5B8A",
+    "value": "on your review form first."
+  },
+  {
+    "key": "ANYONE_1F7274",
+    "value": "Anyone can use the sharing buttons on your review widget to share existing reviews for a referral coupon."
+  },
+  {
+    "key": "SUMMAR_290612",
+    "value": "Summary"
+  },
+  {
+    "key": "CONFIR_E73EBD",
+    "value": "Confirm and save"
+  },
+  {
+    "key": "ADVOCA_AF26B7",
+    "value": "Advocate"
+  },
+  {
+    "key": "REFERR_AE6592",
+    "value": "Referred friend"
+  },
+  {
+    "key": "VALID_9F753A",
+    "value": "Valid on orders above {{subTotal}}"
+  },
+  {
+    "key": "NO_MIN_C2B584",
+    "value": "No minimum subtotal required."
+  },
+  {
+    "key": "DISCOU_68E3A1",
+    "value": "Discount will expire {{days}} day(s) after issuance."
+  },
+  {
+    "key": "NO_EXP_5E111E",
+    "value": "No expiration date."
+  },
+  {
+    "key": "DISCOU_E2DC6C",
+    "value": "discount:"
+  },
+  {
     "key": "REFERR_C35158",
     "value": "Referral program"
   },
@@ -2650,10 +2814,6 @@
   {
     "key": "REVIEW_863ECB",
     "value": "Reviews shared via the sharing buttons on your review widget"
-  },
-  {
-    "key": "ANYONE_0B3FC0",
-    "value": "Anyone can use the sharing buttons on your review widget to share existing reviews for a referral coupon."
   },
   {
     "key": "STEP_1_C34BA0",
