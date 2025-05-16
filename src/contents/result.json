@@ -3324,6 +3324,138 @@
     "value": "A quick question from *|STORE_NAME|*"
   },
   {
+    "key": "PLEASE_A1F87E",
+    "value": "Please wait for the current export task to finish before exporting more emails"
+  },
+  {
+    "key": "SCHEDU_2B7DAB",
+    "value": "Scheduled"
+  },
+  {
+    "key": "PAUSED_E99180",
+    "value": "Paused"
+  },
+  {
+    "key": "SENT_7F8C02",
+    "value": "Sent"
+  },
+  {
+    "key": "EXPORT_86D41B",
+    "value": "Export {{exportModalStatus}} emails to CSV"
+  },
+  {
+    "key": "EMAILS_33F6E3",
+    "value": "Emails will be exported based on the filters you've applied and will be sent to the selected email."
+  },
+  {
+    "key": "PAUSE_105B29",
+    "value": "Pause"
+  },
+  {
+    "key": "RESUME_085EAC",
+    "value": "Resume as scheduled"
+  },
+  {
+    "key": "EMAILS_AF67CA",
+    "value": "emails"
+  },
+  {
+    "key": "WERE_U_420359",
+    "value": "We're using the time zone based on your organization settings"
+  },
+  {
+    "key": "ON_HOL_D97797",
+    "value": "On hold"
+  },
+  {
+    "key": "PROCES_643562",
+    "value": "Processing"
+  },
+  {
+    "key": "PROCES_E6F641",
+    "value": "Processed"
+  },
+  {
+    "key": "DELIVE_67EDD3",
+    "value": "Delivered"
+  },
+  {
+    "key": "OPENED_1A11B1",
+    "value": "Opened"
+  },
+  {
+    "key": "CLICKE_AAC771",
+    "value": "Clicked"
+  },
+  {
+    "key": "LEFT_R_AA1490",
+    "value": "Left reviews"
+  },
+  {
+    "key": "BOUNCE_6592F3",
+    "value": "Bounced"
+  },
+  {
+    "key": "DROPPE_74339E",
+    "value": "Dropped"
+  },
+  {
+    "key": "MARKED_FD2D17",
+    "value": "Marked as spam"
+  },
+  {
+    "key": "DATE_R_461D55",
+    "value": "Date range"
+  },
+  {
+    "key": "STARTI_C2EFE4",
+    "value": "Starting"
+  },
+  {
+    "key": "ENDING_753C34",
+    "value": "Ending"
+  },
+  {
+    "key": "APPLY_9639E3",
+    "value": "Apply"
+  },
+  {
+    "key": "YESTER_EBFE9C",
+    "value": "Yesterday"
+  },
+  {
+    "key": "LAST_7_BCBA73",
+    "value": "Last 7 days"
+  },
+  {
+    "key": "LAST_3_9C36D1",
+    "value": "Last 30 days"
+  },
+  {
+    "key": "LAST_9_2A40CF",
+    "value": "Last 90 days"
+  },
+  {
+    "key": "TODAY_1DD1C5",
+    "value": "Today"
+  },
+  {
+    "key": "NEXT_9_134778",
+    "value": "Next 90 days"
+  },
+  {
+    "key": "NEXT_3_975D87",
+    "value": "Next 30 days"
+  },
+  {
+    "key": "NEXT_7_0BB284",
+    "value": "Next 7 days"
+  },
+  {
+    "key": "NEXT_7_0BB284",
+    "value": "Tomorrow"
+  },
+  {
     "key": "WERE_U_45AD7F",
     "value": "We're using the time zone based on your organization settings GMT (+08:00) Asia/Shanghai."
   },
@@ -3398,10 +3530,6 @@
   {
     "key": "TRIGGE_A19FB2",
     "value": "Trigger"
-  },
-  {
-    "key": "LEFT_R_01BBBC",
-    "value": "Left reviews"
   },
   {
     "key": "CREATE_0E4CA2",
@@ -3704,20 +3832,12 @@
     "value": "Here you can check the performance of your email campaigns."
   },
   {
-    "key": "LAST_3_802035",
-    "value": "Last 30 days"
-  },
-  {
     "key": "NPS_SU_CA766A",
     "value": "NPS survey responses"
   },
   {
     "key": "REVIEW_2662A0",
     "value": "Review request email funnel"
-  },
-  {
-    "key": "SENT_068C04",
-    "value": "Sent"
   },
   {
     "key": "DELIVE_48D018",
