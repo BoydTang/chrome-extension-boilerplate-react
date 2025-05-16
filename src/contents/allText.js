@@ -3453,6 +3453,74 @@ const allTexts = [
   },
   // your nps
   {
+    key: 'REVIEW_D5AC15',
+    value: 'Review deleted',
+  },
+  {
+    key: 'SCORES_E97E07',
+    value: 'scores',
+  },
+  {
+    key: 'YOU_DO_6A465B',
+    value: `You don't have Net Promoter Score emails enabled yet,`,
+  },
+  {
+    key: 'YOU_CA_72E15B',
+    value: `you can go to`,
+  },
+  {
+    key: 'NPS_EM_2B3DE1',
+    value: `NPS email settings`,
+  },
+  {
+    key: 'AND_EN_191033',
+    value: `and enable it`,
+  },
+  {
+    key: 'DELETE_867CEB',
+    value: `Delete reviews? `,
+  },
+  {
+    key: 'THIS_W_3979A4',
+    value: `This will permanently delete all selected reviews.`,
+  },
+  {
+    key: 'RESULT_53E613',
+    value: `results`,
+  },
+  {
+    key: 'DETRA_00CA90',
+    value: '0 detractors/passives/promoters',
+  },
+  {
+    key: 'DETRAC_590E53',
+    value: 'detractors/passives/promoters',
+  },
+  {
+    key: 'DETRAC_522149',
+    value: 'detractors',
+  },
+  {
+    key: 'PASSIV_71DFF0',
+    value: 'passives',
+  },
+  {
+    key: 'PROMOT_9A3FE9',
+    value: 'promoters',
+  },
+  {
+    key: 'DETRAC_044D37',
+    value: 'Detractors',
+  },
+  {
+    key: 'PASSIV_BC200E',
+    value: 'Passives',
+  },
+  {
+    key: 'PROMOT_8D8265',
+    value: 'Promoters',
+  },
+  {
     key: 'YOUR_N_E017EC',
     value: 'Your NPS',
   },
@@ -3601,6 +3669,191 @@ const allTexts = [
     value: 'Close',
   },
   // NPS email settings
+  {
+    key: 'SWITCH_87AE74',
+    value: 'switch to the order fulfillment trigger',
+  },
+  {
+    key: 'CONTAC_53A2C3',
+    value: 'contact us.',
+  },
+  {
+    key: 'DAY_628B7D',
+    value: 'day',
+  },
+  {
+    key: 'AFTER_398D4F',
+    value: 'after order',
+  },
+  {
+    key: 'DELIVE_710853',
+    value: 'delivery',
+  },
+  {
+    key: 'FULFIL_553646',
+    value: 'fulfillment',
+  },
+  {
+    key: 'AND_SE_43BE1E',
+    value: 'and send a reminder email',
+  },
+  {
+    key: 'DAYS_A_A6D31F',
+    value: 'days after the initial email.',
+  },
+  {
+    key: 'DISABL_F4163F',
+    value: 'Disable NPS emails',
+  },
+  {
+    key: 'DISABL_BCFACC',
+    value: 'Disable',
+  },
+  {
+    key: 'NOT_NO_7A1296',
+    value: 'Not now',
+  },
+  {
+    key: 'DISABL_DA5AD2',
+    value:
+      'Disabling NPS emails will delete all your scheduled emails. Do you still want to do it?',
+  },
+  {
+    key: 'NPS_EM_3A6686',
+    value: 'NPS email',
+  },
+  {
+    key: 'INITIA_98686A',
+    value: 'Initial Email',
+  },
+  {
+    key: 'REMIND_644F4F',
+    value: 'Reminder email',
+  },
+  {
+    key: 'EXCLUS_A60C24',
+    value: 'Exclusion rules',
+  },
+  {
+    key: 'SENDER_59FA72',
+    value: 'Sender info',
+  },
+  {
+    key: 'MANAGE_240C90',
+    value: 'Manage sender email',
+  },
+  {
+    key: 'TIMING_961F52',
+    value: 'Timing trigger',
+  },
+  {
+    key: 'AFTER_7C3B6D',
+    value: 'After order delivery',
+  },
+  {
+    key: 'AFTER_AE4E7A',
+    value: 'After order fulfillment',
+  },
+  {
+    key: 'THIS_W_12931E',
+    value: 'This will only be used when there is a problem tracking the order',
+  },
+  {
+    key: 'FALLBA_DD0DFF',
+    value: 'Fallback setting',
+  },
+  {
+    key: 'AFTER_C134A2',
+    value: 'after order fulfillment',
+  },
+  {
+    key: 'AFTER_4D6765',
+    value: 'after order delivery',
+  },
+  {
+    key: 'DAYS_44FDEC',
+    value: 'day(s)',
+  },
+  {
+    key: 'EMAIL_BB6B40',
+    value: 'Email subject line',
+  },
+  {
+    key: 'SEND_A_37008B',
+    value: `Send a reminder after the initial request for customers who didn't submit a review.`,
+  },
+  {
+    key: 'AFTER_603D7B',
+    value: `after initial email sent`,
+  },
+  {
+    key: 'WE_REC_E6F669',
+    value: `We recommend an interval of at least 5 days to ensure customers don't feel spammed.`,
+  },
+  {
+    key: 'SEND_R_391F1D',
+    value: `Send reminder email`,
+  },
+  {
+    key: 'EXCLUD_79B4F4',
+    value: `Exclude specific orders, products, and customers from review requests.`,
+  },
+  {
+    key: 'YOU_CA_6A270F',
+    value: `You can set exclusion rules in`,
+  },
+  {
+    key: 'THIS_E_DF6DB3',
+    value: `This email address is unverified. Please verify email address domain to reduce chances of being marked as spam.`,
+  },
+  {
+    key: 'VERIFY_304BCA',
+    value: `Verify email address`,
+  },
+  {
+    key: 'IMAGE_0983AF',
+    value: `Image with text`,
+  },
+  {
+    key: 'PRODUC_9C4BA0',
+    value: `Product Items`,
+  },
+  {
+    key: 'STORE_94855F',
+    value: `Store URL`,
+  },
+  {
+    key: 'MOBILE_D716CC',
+    value: `Mobile SURVEY FORMAT`,
+  },
+  {
+    key: 'CHOOSE_9CFE7A',
+    value: `Choose how the survey will be shown on mobile devices.`,
+  },
+  {
+    key: 'STACK_38662B',
+    value: `Stack buttons vertically`,
+  },
+  {
+    key: 'FOLLOW_7916C8',
+    value: `Follow desktop format`,
+  },
+  {
+    key: 'SCORE_3D6C53',
+    value: `0 score label`,
+  },
+  {
+    key: 'SCORE_448E08',
+    value: `10 score label`,
+  },
+  {
+    key: 'SURVEY_A1EF6A',
+    value: `SURVEY ANSWERS`,
+  },
+  {
+    key: 'REVIEW_AC4DB6',
+    value: `REVIEW BUTTON`,
+  },
   {
     key: 'NPS_EM_491765',
     value: 'NPS email settings',
