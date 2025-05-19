@@ -3596,6 +3596,22 @@
     "value": "Manual"
   },
   {
+    "key": "POST_P_912578",
+    "value": "Post-purchase NPS enabled"
+  },
+  {
+    "key": "POST_P_4A87A5",
+    "value": "Post-purchase NPS disabled"
+  },
+  {
+    "key": "GO_TO_84B532",
+    "value": "Go to Shopify checkout editor"
+  },
+  {
+    "key": "HOW_TO_642552",
+    "value": "How to add the post-purchase NPS widget to Shopify checkout"
+  },
+  {
     "key": "POSTPU_51D4E6",
     "value": "Post-purchase NPS"
   },
