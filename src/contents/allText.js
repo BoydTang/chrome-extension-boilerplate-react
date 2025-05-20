@@ -16,6 +16,73 @@ const allTexts = [
     key: 'CONNEC_BEFA0A',
     value: 'Connect your Shopify store to use AfterShip Reviews.',
   },
+  {
+    key: 'EMAIL_FA5BEC',
+    value: 'Email actions are disabled',
+  },
+  {
+    key: 'YOU_HA_703866',
+    value:
+      'You have violated email compliance rules and can no longer send emails. If you believe this is an error,',
+  },
+  {
+    key: 'EMAIL_2CC234',
+    value: 'Email approved',
+  },
+  {
+    key: 'YOUR_E_BC5139',
+    value: 'Your emails now can be sent to recipients.',
+  },
+  {
+    key: 'FAILED_10EBA6',
+    value: 'Failed to save the email',
+  },
+  {
+    key: 'SENSIT_826E7B',
+    value:
+      'Sensitive words detected. They’re not allowed in email content due to compliance requirements. Please modify the content and try again.',
+  },
+  {
+    key: 'YOUR_R_52577C',
+    value:
+      'Your review/NPS request email(s) have triggered a content review. No emails will be sent to recipients until we approve the email content. If you have further questions, feel free to ',
+  },
+  {
+    key: 'YOUR_A_819529',
+    value: 'Your automatic follow up email can now be sent to recipients.',
+  },
+  {
+    key: 'YOUR_A_BAF96F',
+    value: `Your automatic follow up email has triggered a content review. It won't be sent to recipients until we approve it. If you have further questions, feel free to `,
+  },
+  {
+    key: 'YOUR_A_919002',
+    value: `Your automatic follow up negative email can now be sent to recipients.`,
+  },
+  {
+    key: 'YOUR_A_00517C',
+    value: `Your automatic follow up negative email has triggered a content review. It won't be sent to recipients until we approve it. If you have further questions, feel free to `,
+  },
+  {
+    key: 'YOUR_A_A96B3F',
+    value: `Your account has violated email compliance rules and is restricted from sending emails. If you believe this is an error or would like to appeal, `,
+  },
+  {
+    key: 'YOUR_A_56BBB6',
+    value: `Your answer invitation email can now be sent to recipients.`,
+  },
+  {
+    key: 'YOUR_A_1BD6CB',
+    value: `Your answer invitation email is under review and won't be sent out until it is approved. Note that emails that are not sent during the review period will not be automatically resent. If you have further questions, feel free to `,
+  },
+  {
+    key: 'EMAIL_00B73C',
+    value: `Email disabled`,
+  },
+  {
+    key: 'SENSIT_826E7B',
+    value: `Sensitive words detected. They're not allowed in email content due to compliance requirements. Please modify the content and try again.`,
+  },
   // home page
   {
     key: 'PENDIN_720EDA',
@@ -4920,6 +4987,65 @@ const allTexts = [
   },
   // analytics overview
   {
+    key: 'THE_NU_E9807D',
+    value:
+      'The number of reviews collected within the selected time frame from all sources',
+  },
+  {
+    key: 'THE_NU_C7A136',
+    value:
+      'The number of NPS survey responses collected within the selected time frame from all sources',
+  },
+  {
+    key: 'TOTAL_1E08EA',
+    value: 'Total number of unique impressions or clicks of a review asset',
+  },
+  {
+    key: 'TOTAL_68AF1D',
+    value:
+      'Total sales from visitors who made a purchase within 7 days of an impression or click on a review asset',
+  },
+  {
+    key: 'IMPRES_6CDEC3',
+    value: 'Impressions',
+  },
+  {
+    key: 'CLICKS_CBDB55',
+    value: 'Clicks',
+  },
+  {
+    key: 'BASED_BFE08F',
+    value: 'based on {{reviewCollected}} reviews',
+  },
+  {
+    key: 'BASED_F00FB6',
+    value: 'based on {{npsResponses}} NPS surveys',
+  },
+  {
+    key: 'NPS_SC_88A6D9',
+    value: 'NPS score',
+  },
+  {
+    key: 'NO_DAT_40B8DA',
+    value: 'No data',
+  },
+  {
+    key: 'AUTOMA_086247',
+    value: 'Automatic',
+  },
+  {
+    key: 'INITIA_4F2A91',
+    value: 'Initial',
+  },
+  {
+    key: 'REMIND_92A977',
+    value: 'Reminder',
+  },
+  {
+    key: 'MANUAL_826C19',
+    value: 'Manually',
+  },
+  {
     key: 'OVERVI_FF0EBE',
     value: 'Overview',
   },
@@ -5178,6 +5304,79 @@ const allTexts = [
       'The number of review request emails that led to one or more reviews divided by the total number of review request emails sent',
   },
   // google intergration
+  {
+    key: 'HERES_CE9C80',
+    value: 'Here’s what it’ll look like',
+  },
+  {
+    key: 'GOOGLE_EA14D5',
+    value: 'Google snippets preview',
+  },
+  {
+    key: 'GOOGLE_57B8D6',
+    value: 'Google shopping preview',
+  },
+  {
+    key: 'GOOGLE_BF58F6',
+    value: 'Google Snippets enabled',
+  },
+  {
+    key: 'GOOGLE_E048E8',
+    value: 'Google Snippets disabled',
+  },
+  {
+    key: 'YOUR_T_350FC7',
+    value:
+      'Your theme is not supported yet. You can add Google snippet manually yourself',
+  },
+  {
+    key: 'VIEW_G_2A8C31',
+    value: 'view guide',
+  },
+  {
+    key: 'OR_WE_E55F39',
+    value: 'or we can also add it to your theme for free.',
+  },
+  {
+    key: 'TALK_T_1A3DBF',
+    value: 'Talk to support (24x7)',
+  },
+  {
+    key: 'GOOGLE_050BB7',
+    value: 'Google Shopping enabled',
+  },
+  {
+    key: 'GOOGLE_D28BCC',
+    value: 'Google Shopping disabled',
+  },
+  {
+    key: 'GOOGLE_A89870',
+    value: 'Google Shopping setup saved',
+  },
+  {
+    key: 'PLEASE_99BD83',
+    value: 'please select a product prefix based on your store’s country code.',
+  },
+  {
+    key: 'FEED_F_D7E117',
+    value: 'Feed file url copied',
+  },
+  {
+    key: 'DONT_I_4946A6',
+    value: `Don't include in the feed`,
+  },
+  {
+    key: 'EXTRAC_0C3124',
+    value: `Extract from "Barcode"`,
+  },
+  {
+    key: 'EXTRAC_2E55FD',
+    value: `Extract from "SKU"`,
+  },
+  {
+    key: 'EXTRAC_8B886A',
+    value: `Extract from "Product ID"`,
+  },
   {
     key: 'GOOGLE_60311E',
     value: 'Google integrations',
