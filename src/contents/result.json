@@ -3664,6 +3664,402 @@
     "value": "How likely are you to recommend *|STORE_NAME|* to a friend?"
   },
   {
+    "key": "ENABLE_F22D2D",
+    "value": "Enable review request emails to collect post-purchase reviews automatically."
+  },
+  {
+    "key": "ENABLE_B95530",
+    "value": "Enable now"
+  },
+  {
+    "key": "SCHEDU_638A6D",
+    "value": "scheduled"
+  },
+  {
+    "key": "PAUSED_D13C3F",
+    "value": "paused"
+  },
+  {
+    "key": "SENT_789183",
+    "value": "sent"
+  },
+  {
+    "key": "1_EMAI_3D126A",
+    "value": "1 email triggered to send"
+  },
+  {
+    "key": "TOO_MA_39FAFF",
+    "value": "Too Many Requests"
+  },
+  {
+    "key": "CREATE_7F6621",
+    "value": "Create one-time review request email"
+  },
+  {
+    "key": "MANUAL_DEA98E",
+    "value": "Manual review requests can currently only be sent in your default language"
+  },
+  {
+    "key": "ENTER_EE52E0",
+    "value": "Enter name..."
+  },
+  {
+    "key": "ENTER_75E6C6",
+    "value": "Enter email..."
+  },
+  {
+    "key": "SELECT_B483E7",
+    "value": "Select products"
+  },
+  {
+    "key": "SEARCH_BE8B9C",
+    "value": "Search and select products..."
+  },
+  {
+    "key": "ENTER_53652E",
+    "value": "Enter order number..."
+  },
+  {
+    "key": "STEP_1_0B2ACC",
+    "value": "Step 1: Download and fill CSV template"
+  },
+  {
+    "key": "CLICK_FE5418",
+    "value": "Click here to download"
+  },
+  {
+    "key": "THE_CS_E647FA",
+    "value": "the CSV file, then fill your order information in."
+  },
+  {
+    "key": "FORMAT_9A6E26",
+    "value": "Format not supported."
+  },
+  {
+    "key": "THE_FI_B5E35B",
+    "value": "The file is too large. Please choose a file with less than 500 rows."
+  },
+  {
+    "key": "DROP_T_FA0F19",
+    "value": "Drop the file to upload"
+  },
+  {
+    "key": "YOUR_C_D195DA",
+    "value": "Your CSV file is being validated..."
+  },
+  {
+    "key": "TOTAL_8630EA",
+    "value": "{{total}} email(s) triggered to send"
+  },
+  {
+    "key": "FAILED_FE45F5",
+    "value": "Failed to send the email on {{createdAt}} to {{failedValidated}} recipient from the CSV file."
+  },
+  {
+    "key": "FAILED_3B92D3",
+    "value": "Failed to send the email on {{createdAt}} to {{failedValidated}} recipients from the CSV file."
+  },
+  {
+    "key": "PLEASE_DEACAD",
+    "value": "Please"
+  },
+  {
+    "key": "DOWNLO_48EBF9",
+    "value": "download the error file"
+  },
+  {
+    "key": "AND_TR_A30101",
+    "value": "and try again."
+  },
+  {
+    "key": "PRODUC_D78339",
+    "value": "Product types:"
+  },
+  {
+    "key": "DISABL_5EE8B7",
+    "value": "Disable review request emails"
+  },
+  {
+    "key": "DISABL_777297",
+    "value": "Disabling review request emails will delete all your scheduled emails. Do you still want to do it?"
+  },
+  {
+    "key": "EMAIL_391C70",
+    "value": "Email template saved"
+  },
+  {
+    "key": "REVIEW_F73A6B",
+    "value": "Review request email"
+  },
+  {
+    "key": "EMAIL_8D6DDB",
+    "value": "Email under review"
+  },
+  {
+    "key": "IF_FOR_A105CD",
+    "value": "If for any reason we can't receive an order's shipment info, the trigger will default to the order fulfillment time"
+  },
+  {
+    "key": "SENDER_6D61FC",
+    "value": "Sender email"
+  },
+  {
+    "key": "WRITE_E2A634",
+    "value": "\"Write a review\" page"
+  },
+  {
+    "key": "SPECIF_14650F",
+    "value": "Specific URL"
+  },
+  {
+    "key": "USE_ST_2C6CAB",
+    "value": "Use {{STORE_URL}} to direct customers to your store’s home page."
+  },
+  {
+    "key": "REVIEW_398816",
+    "value": "REVIEW FORMAT"
+  },
+  {
+    "key": "REVIEW_769379",
+    "value": "Review first product in the email"
+  },
+  {
+    "key": "AFTER_0E491A",
+    "value": "After reviewing the first product in the email, customers are taken to your online review page to review the rest."
+  },
+  {
+    "key": "REVIEW_FBDEE6",
+    "value": "Review online"
+  },
+  {
+    "key": "ALL_PR_A97042",
+    "value": "All products are shown in the email. But customers are taken to your online review page when they click to review."
+  },
+  {
+    "key": "REVIEW_C83B2F",
+    "value": "REVIEW FORM"
+  },
+  {
+    "key": "THE_PR_9471E1",
+    "value": "The preview is showing the form \"{{customizedFormName}}\"."
+  },
+  {
+    "key": "CHOOSE_EFD1E4",
+    "value": "Choose how customers will review"
+  },
+  {
+    "key": "YOU_NE_E704D1",
+    "value": "You need to"
+  },
+  {
+    "key": "ENABLE_AB8963",
+    "value": "enable referral discounts"
+  },
+  {
+    "key": "REFERR_774E3A",
+    "value": "Referral discount enabled"
+  },
+  {
+    "key": "FIRST_8EAEF9",
+    "value": "first before you can use the discount merge tags below."
+  },
+  {
+    "key": "PRODUC_78E6E3",
+    "value": "Product title"
+  },
+  {
+    "key": "SEND_S_2254C7",
+    "value": "Send successfully"
+  },
+  {
+    "key": "FAILED_8A85C9",
+    "value": "Failed to send"
+  },
+  {
+    "key": "OK_E0AA02",
+    "value": "OK"
+  },
+  {
+    "key": "NETWOR_E0325B",
+    "value": "Network error, please try again"
+  },
+  {
+    "key": "TEST_E_928CBB",
+    "value": "Test email sent to {{sendTarget}}"
+  },
+  {
+    "key": "SWITCH_CC03A2",
+    "value": "switch language"
+  },
+  {
+    "key": "ADDREM_A58E44",
+    "value": "Add/remove"
+  },
+  {
+    "key": "ENGLIS_78463A",
+    "value": "English"
+  },
+  {
+    "key": "PORTUG_30E32C",
+    "value": "Portuguese"
+  },
+  {
+    "key": "FRENCH_AD225F",
+    "value": "French"
+  },
+  {
+    "key": "SPANIS_CB5480",
+    "value": "Spanish"
+  },
+  {
+    "key": "GERMAN_86BC31",
+    "value": "German"
+  },
+  {
+    "key": "SWEDIS_41171A",
+    "value": "Swedish"
+  },
+  {
+    "key": "ITALIA_4BE8E0",
+    "value": "Italian"
+  },
+  {
+    "key": "JAPANE_F32CED",
+    "value": "Japanese"
+  },
+  {
+    "key": "TURKIS_C1612B",
+    "value": "Turkish"
+  },
+  {
+    "key": "CHINES_3B2611",
+    "value": "Chinese"
+  },
+  {
+    "key": "DUTCH_68BF36",
+    "value": "Dutch"
+  },
+  {
+    "key": "NORWEG_DA550C",
+    "value": "Norwegian"
+  },
+  {
+    "key": "KOREAN_D0BDB3",
+    "value": "Korean"
+  },
+  {
+    "key": "CZECH_83FF44",
+    "value": "Czech"
+  },
+  {
+    "key": "GREEK_0AAFA4",
+    "value": "Greek"
+  },
+  {
+    "key": "POLISH_C73038",
+    "value": "Polish"
+  },
+  {
+    "key": "LITHUA_04F605",
+    "value": "Lithuanian"
+  },
+  {
+    "key": "HUNGAR_7B8611",
+    "value": "Hungarian"
+  },
+  {
+    "key": "CROATI_0C1BE0",
+    "value": "Croatian"
+  },
+  {
+    "key": "TRADIT_7F442F",
+    "value": "Traditional Chinese"
+  },
+  {
+    "key": "ROMANI_EFA739",
+    "value": "Romanian"
+  },
+  {
+    "key": "LATVIA_76AD03",
+    "value": "Latvian"
+  },
+  {
+    "key": "BRAZIL_475D5B",
+    "value": "Brazilian Portuguese"
+  },
+  {
+    "key": "DANISH_7BC6F1",
+    "value": "Danish"
+  },
+  {
+    "key": "HEBREW_C6C1F8",
+    "value": "Hebrew"
+  },
+  {
+    "key": "ESTONI_28916F",
+    "value": "Estonian"
+  },
+  {
+    "key": "SLOVEN_6E9970",
+    "value": "Slovenian"
+  },
+  {
+    "key": "SLOVAK_9ACCC4",
+    "value": "Slovak"
+  },
+  {
+    "key": "EDIT_Y_8B133B",
+    "value": "edit your email template"
+  },
+  {
+    "key": "SAVE_E_F5048F",
+    "value": "Save email"
+  },
+  {
+    "key": "LANGUA_066538",
+    "value": "{{language}} is currently unpublished."
+  },
+  {
+    "key": "YOU_CA_008AC2",
+    "value": "You can publish it in the"
+  },
+  {
+    "key": "LANGUA_37AC7B",
+    "value": "language settings"
+  },
+  {
+    "key": "SAVE_A_235CA7",
+    "value": "Save and switch"
+  },
+  {
+    "key": "STAY_O_89B4E8",
+    "value": "Stay on this page"
+  },
+  {
+    "key": "YOUVE_C226EF",
+    "value": "You've made changes to your {{language}} email template. Save them before switching languages?"
+  },
+  {
+    "key": "UNAVAI_184719",
+    "value": "Unavailable merge tags"
+  },
+  {
+    "key": "EDIT_E_9CADE4",
+    "value": "Edit email template"
+  },
+  {
+    "key": "THE_A4704F",
+    "value": "The"
+  },
+  {
+    "key": "DISCOU_051D7C",
+    "value": "discount merge tags"
+  },
+  {
+    "key": "IN_YOU_E44DC4",
+    "value": "in your review request emails ({{EmailTemplates}}) will not be displayed as you disabled referral discounts. Please edit your template to avoid errors."
+  },
+  {
     "key": "REVIEW_19093C",
     "value": "Review request email settings"
   },
@@ -4108,10 +4504,6 @@
     "value": "Only published languages are visible to customers. You must manually translate any customizable content in your review widgets and emails."
   },
   {
-    "key": "ENGLIS_FBEB9F",
-    "value": "English"
-  },
-  {
     "key": "ADD_LA_C94984",
     "value": "Add language"
   },
@@ -4414,10 +4806,6 @@
   {
     "key": "SENT_T_0A262A",
     "value": "Sent to all customers regardless of their review."
-  },
-  {
-    "key": "EDIT_E_78D2BB",
-    "value": "Edit email template"
   },
   {
     "key": "NEGATI_6F0BF3",
