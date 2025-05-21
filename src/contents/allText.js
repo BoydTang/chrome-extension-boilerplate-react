@@ -5504,6 +5504,22 @@ const allTexts = [
   },
   // settings
   {
+    key: 'DEFAUL_5264C9',
+    value: 'Default language changed',
+  },
+  {
+    key: 'SOMETH_F6C382',
+    value: 'Something went wrong, please try again',
+  },
+  {
+    key: 'SEARCH_F1F7DC',
+    value: 'Search by language',
+  },
+  {
+    key: 'NO_LAN_276751',
+    value: 'No languages found',
+  },
+  {
     key: 'SETTIN_B9F107',
     value: 'Settings',
   },
@@ -5568,6 +5584,34 @@ const allTexts = [
     value: 'View details for',
   },
   // languages
+  {
+    key: 'LANGUA_BC6459',
+    value: '{{language}} unpublished',
+  },
+  {
+    key: 'LANGUA_2B308A',
+    value: '{{language}} deleted',
+  },
+  {
+    key: 'LANGUA_3A5B81',
+    value: '{{language}} published',
+  },
+  {
+    key: 'DELETE_5719A9',
+    value: 'Delete {{language}}?',
+  },
+  {
+    key: 'THIS_W_4A1B68',
+    value: 'This will permanently remove all translations for {{language}}.',
+  },
+  {
+    key: 'PUBLIS_67483B',
+    value: 'Publish {{language}}?',
+  },
+  {
+    key: 'PUBLIS_67483B',
+    value: `Make sure you've translated the {{language}} versions of your review widgets and email template before publishing.`,
+  },
   {
     key: 'LANGUA_2C6A1A',
     value: 'Languages',
@@ -5671,6 +5715,211 @@ const allTexts = [
     value: 'Close',
   },
   // Review form
+  {
+    key: 'FACEBO_93054D',
+    value: 'Facebook button',
+  },
+  {
+    key: 'X_TWIT_0002B0',
+    value: 'X (Twitter) button',
+  },
+  {
+    key: 'COPY_L_46A5E3',
+    value: 'Copy link button',
+  },
+  {
+    key: 'YOUVE_849D20',
+    value: `You've added the maximum of 50 forms`,
+  },
+  {
+    key: 'FORM_S_D814B9',
+    value: `Form saved`,
+  },
+  {
+    key: 'EDIT_F_54D35B',
+    value: `Edit form`,
+  },
+  {
+    key: 'YOUVE_1B464F',
+    value: `You've added the maximum of 20 questions`,
+  },
+  {
+    key: 'PLEASE_7008C8',
+    value: `Please select at least one tag`,
+  },
+  {
+    key: 'TAG_CO_4973F1',
+    value: `Tag "{{conflictTags}}" has already been applied to another published form`,
+  },
+  {
+    key: 'TAGS_C_110A15',
+    value: `Tags "{{conflictTags}}" have already been applied to another published form`,
+  },
+  {
+    key: 'THERE_63ABF4',
+    value: `There is already another published form`,
+  },
+  {
+    key: 'THAT_A_07D850',
+    value: `that applies to all products. Only 1 form that applies to all products can be published at a time.`,
+  },
+  {
+    key: 'QUESTI_F016A8',
+    value: `Question key(s) {{keys}} conflict with our system default key. To prevent errors, update the conflicting question keys.`,
+  },
+  {
+    key: 'NETWOR_D161F2',
+    value: `Network error`,
+  },
+  {
+    key: 'ENTER_B323C4',
+    value: `Enter a question`,
+  },
+  {
+    key: 'QUESTI_A9D969',
+    value: `Question already exists, enter a new one`,
+  },
+  {
+    key: 'QUESTI_DEEF03',
+    value: `Question key already exists, enter a new one`,
+  },
+  {
+    key: 'QUESTI_33979C',
+    value: `Question key`,
+  },
+  {
+    key: 'ENTER_5AFC37',
+    value: `Enter a key`,
+  },
+  {
+    key: 'A_KEY_FBD912',
+    value: `A key determines how a question is presented when displayed on your store. For example, the key for the question "How old are you?" could be "Age".`,
+  },
+  {
+    key: 'QUESTI_BDC2AC',
+    value: 'Question key',
+  },
+  {
+    key: 'QUESTI_2E2D00',
+    value: 'Question type',
+  },
+  {
+    key: 'SINGLE_543C85',
+    value: 'Single-answer',
+  },
+  {
+    key: 'MULTIP_72D5DA',
+    value: 'Multiple-answer',
+  },
+  {
+    key: 'RATING_E36EC0',
+    value: 'Rating scale',
+  },
+  {
+    key: 'SLIDER_BC98F5',
+    value: 'Slider',
+  },
+  {
+    key: 'PLAIN_F47519',
+    value: 'Plain text',
+  },
+  {
+    key: 'OPTION_673E8C',
+    value: 'Options',
+  },
+  {
+    key: 'ANSWER_A8E850',
+    value: 'Answer required',
+  },
+  {
+    key: 'REQUIR_0043A5',
+    value: 'Required',
+  },
+  {
+    key: 'OPTION_37A318',
+    value: 'Optional',
+  },
+  {
+    key: 'SHOW_A_81F237',
+    value: 'Show answer in review content',
+  },
+  {
+    key: 'SHOW_A_978A44',
+    value: 'Show as review filter',
+  },
+  {
+    key: 'NOTE_A_2699AB',
+    value:
+      'Note: Answers to plain text questions cannot be displayed in review widgets.',
+  },
+  {
+    key: 'LEFT_L_61753A',
+    value: 'Left label',
+  },
+  {
+    key: 'ENTER_283F46',
+    value: 'Enter a label',
+  },
+  {
+    key: 'MIDDLE_BEA8ED',
+    value: 'Middle label',
+  },
+  {
+    key: 'RIGHT_5197F1',
+    value: 'Right label',
+  },
+  {
+    key: 'SHOW_A_F82AC0',
+    value: 'Show average score in widget headers',
+  },
+  {
+    key: 'PREVIE_16146D',
+    value: 'PREVIEW',
+  },
+  {
+    key: 'EG_WHA_1C52DE',
+    value: `e.g. What's your age?`,
+  },
+  {
+    key: 'EG_AGE_5CCDAD',
+    value: `e.g. Age`,
+  },
+  {
+    key: 'EG_WHA_3DFD40',
+    value: `e.g. What are your favorite features of this product?`,
+  },
+  {
+    key: 'EG_FAV_3A4BD5',
+    value: `e.g. Favorite features`,
+  },
+  {
+    key: 'EG_HOW_D7A34A',
+    value: `e.g. How would you rate the overall product quality?`,
+  },
+  {
+    key: 'EG_QUA_83039C',
+    value: `e.g. Quality`,
+  },
+  {
+    key: 'EG_HOW_24FCA0',
+    value: `e.g. How is the product size?`,
+  },
+  {
+    key: 'EG_SIZ_CCF77A',
+    value: `e.g. Size`,
+  },
+  {
+    key: 'EG_ANY_BA2D82',
+    value: `e.g. Any other suggestions for this product?`,
+  },
+  {
+    key: 'EG_SUG_E2E564',
+    value: `e.g. Suggestions`,
+  },
+  {
+    key: 'ENTER_ABEC05',
+    value: `Enter an option`,
+  },
   {
     key: 'REVIEW_8C58C6',
     value: 'Review form',
@@ -5876,6 +6125,34 @@ const allTexts = [
     value: 'Search collections',
   },
   // Auto-publish reviews
+  {
+    key: 'SAVE_S_AF87F9',
+    value: 'Save success',
+  },
+  {
+    key: 'CHANGE_8B4BAB',
+    value: 'Change minimum star rating?',
+  },
+  {
+    key: 'REVIEW_D627CE',
+    value: 'Reviews with a',
+  },
+  {
+    key: 'RATING_3F2786',
+    value: 'rating lower than {{minimumStar}} stars',
+  },
+  {
+    key: 'THAT_A_56078A',
+    value: 'that are not published or unpublished will be shown as',
+  },
+  {
+    key: 'AND_WI_1E9941',
+    value: ', and will be auto-published 14 days after submission.',
+  },
+  {
+    key: 'MAKE_S_4D02C8',
+    value: 'Make sure to publish all valid reviews as soon as possible.',
+  },
   {
     key: 'AUTOPU_09487F',
     value: 'Auto-publish reviews',
