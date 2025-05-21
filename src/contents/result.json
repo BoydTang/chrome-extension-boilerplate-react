@@ -1,5 +1,17 @@
 [
   {
+    "key": "PLEASE_27EEA7",
+    "value": "Please connect your Shopify store"
+  },
+  {
+    "key": "CONNEC_4DE0EC",
+    "value": "Connect Shopify Store"
+  },
+  {
+    "key": "AS_OF_165467",
+    "value": "As of now, this feature is compatible with Shopify only."
+  },
+  {
     "key": "UNSAVE_2EE0D3",
     "value": "Unsaved changes"
   },
@@ -5300,6 +5312,14 @@
     "value": "Email recipientsSave"
   },
   {
+    "key": "NEGATI_D721F5",
+    "value": "Negative review follow-up email"
+  },
+  {
+    "key": "DEFAUL_4D724C",
+    "value": "Default follow-up email"
+  },
+  {
     "key": "EMAIL_50FFF3",
     "value": "Email settings"
   },
@@ -5338,10 +5358,6 @@
   {
     "key": "CHOOSE_4DADC5",
     "value": "Choose which reviews will trigger a follow-up email."
-  },
-  {
-    "key": "DEFAUL_61FCC1",
-    "value": "Default follow-up email"
   },
   {
     "key": "SEND_T_F5A01D",
@@ -5544,16 +5560,48 @@
     "value": "Font size 16px"
   },
   {
+    "key": "ENTER_4264A4",
+    "value": "Enter an image URL"
+  },
+  {
+    "key": "USE_FA_A82396",
+    "value": "Use {{FACEBOOK_SHARE}} to direct customers to share their reviews."
+  },
+  {
+    "key": "USE_TW_CF0373",
+    "value": "Use {{TWITTER_SHARE}} to direct customers to share their reviews."
+  },
+  {
+    "key": "CIRCLE_30954D",
+    "value": "Circle"
+  },
+  {
+    "key": "ROUND_B7F41F",
+    "value": "Round"
+  },
+  {
+    "key": "SQUARE_CEB46C",
+    "value": "Square"
+  },
+  {
+    "key": "BLACK_E90DFB",
+    "value": "Black"
+  },
+  {
+    "key": "GRAY_994AE1",
+    "value": "Gray"
+  },
+  {
+    "key": "WHITE_25A817",
+    "value": "White"
+  },
+  {
     "key": "DISPLA_581A57",
     "value": "display"
   },
   {
     "key": "ICON_S_D8C89C",
     "value": "Icon shape"
-  },
-  {
-    "key": "ROUND_32A4EB",
-    "value": "Round"
   },
   {
     "key": "COLOR_45D183",
@@ -5684,6 +5732,170 @@
     "value": "Try"
   },
   {
+    "key": "COPY_T_DEC3AF",
+    "value": "Copy this group token and use it in other stores to join this group"
+  },
+  {
+    "key": "TO_REM_7EA4D0",
+    "value": "To remove a store, log in to that store and click \"Leave group\""
+  },
+  {
+    "key": "LEAVE_66C95F",
+    "value": "Leave group?"
+  },
+  {
+    "key": "LEAVE_A52945",
+    "value": "Leave"
+  },
+  {
+    "key": "THIS_S_F997B1",
+    "value": "This store will no longer share reviews with other stores in this group. Are you sure you want to leave the group?"
+  },
+  {
+    "key": "YOUR_S_9540AC",
+    "value": "Your store left the group"
+  },
+  {
+    "key": "GROUP_F64A93",
+    "value": "Group token copied"
+  },
+  {
+    "key": "GROUP_5A27A9",
+    "value": "Group created"
+  },
+  {
+    "key": "GROUP_495B02",
+    "value": "Group joined"
+  },
+  {
+    "key": "CREATE_E00C6F",
+    "value": "Create new group"
+  },
+  {
+    "key": "OR_JOI_12E7BE",
+    "value": "Or join an existing group"
+  },
+  {
+    "key": "ENTER_6404C3",
+    "value": "Enter store group token"
+  },
+  {
+    "key": "JOIN_G_8DC5DB",
+    "value": "Join group"
+  },
+  {
+    "key": "GROUP_1B5112",
+    "value": "Group doesn't exist, try a different group token"
+  },
+  {
+    "key": "SYNC_R_DEF01E",
+    "value": "Sync reviews to {{TikTok}} with {{AfterShip_Feed}}"
+  },
+  {
+    "key": "SEAMLE_AD05E7",
+    "value": "Seamlessly sync your products and reviews to {{TikTok_Shop}} with {{AfterShip_Feed}} and sell to a wider audience."
+  },
+  {
+    "key": "SHOWCA_681232",
+    "value": "Showcase your new and existing product reviews on {{TikTok_Shop}} in just a few simple steps."
+  },
+  {
+    "key": "SYNC_R_34F4FA",
+    "value": "Sync reviews to {{TikTok}}"
+  },
+  {
+    "key": "TRY_AP_28A691",
+    "value": "Try {{appName}}"
+  },
+  {
+    "key": "SYNC_T_720005",
+    "value": "sync {{tiktok}} reviews"
+  },
+  {
+    "key": "TRUSTP_6C6845",
+    "value": "{{Trustpilot}} business profile page URL"
+  },
+  {
+    "key": "TO_CON_90D3CF",
+    "value": "To connect a different {{Trustpilot}} business page, remove the current connection and connect to a new page in Apps"
+  },
+  {
+    "key": "AUTOMA_D8C115",
+    "value": "Automatically trigger {{Trustpilot}} review invitations"
+  },
+  {
+    "key": "TRUSTP_DB56F1",
+    "value": "{{Trustpilot}} template language rules"
+  },
+  {
+    "key": "SET_WH_11803D",
+    "value": "Set which {{Trustpilot}} review invitation templates you want to use for your different store languages. Make sure the languages you want to use are published. For any store language without a matching rule, we will use your default {{Trustpilot}} template."
+  },
+  {
+    "key": "ADD_RU_66AC03",
+    "value": "Add rule"
+  },
+  {
+    "key": "PRE_TA_37FBCF",
+    "value": "Pre-tag {{Trustpilot}} review invitations"
+  },
+  {
+    "key": "WHEN_W_F1BEAD",
+    "value": "When we trigger a review invitation, you can choose to automatically tag any reviews you receive. Tags can be used on {{Trustpilot}} to filter reviews."
+  },
+  {
+    "key": "TAGS_C_AAC509",
+    "value": "Tags can only contain letters, numbers, underscores, periods, and hyphens (-)"
+  },
+  {
+    "key": "ALL_IN_3E3EB1",
+    "value": "All invitations will contain the tags {Country}, {Language}, and {Product handle}, which we will auto-populate based on the customer's information. Custom tags can only contain letters, numbers, underscores, periods, and hyphens (-)."
+  },
+  {
+    "key": "AUTOMA_C4BAC1",
+    "value": "Automatically trigger {{Trustpilot}} review"
+  },
+  {
+    "key": "GAIN_B_7C72B3",
+    "value": "Gain better control over your {{Trustpilot}} review invitations, and manage all your reviews here in one place."
+  },
+  {
+    "key": "CONNEC_3E8C9E",
+    "value": "Connect {{Trustpilot}} account"
+  },
+  {
+    "key": "COUNTR_59716C",
+    "value": "{Country}"
+  },
+  {
+    "key": "LANGUA_4994A8",
+    "value": "{Language}"
+  },
+  {
+    "key": "PRODUC_1964B4",
+    "value": "{Product handle}"
+  },
+  {
+    "key": "EMAIL_935678",
+    "value": "Email requires review"
+  },
+  {
+    "key": "CONTIN_A0BFB8",
+    "value": "Continue"
+  },
+  {
+    "key": "YOUR_E_6DBB04",
+    "value": "Your email has triggered a content review. If you continue, it won't be sent to recipients until we approve it."
+  },
+  {
+    "key": "ONLY_O_497F12",
+    "value": "Only once when a question is submitted"
+  },
+  {
+    "key": "EVERY_38DE13",
+    "value": "Every day until a question receives"
+  },
+  {
     "key": "ANSWER_0E36A5",
     "value": "Answer invitation emails"
   },
@@ -5698,14 +5910,6 @@
   {
     "key": "AUTOIN_0BF943",
     "value": "Auto-invite past customers"
-  },
-  {
-    "key": "ONLY_O_003A0A",
-    "value": "Only once when a question is submitted"
-  },
-  {
-    "key": "EVERY_AD9059",
-    "value": "Every day until a question receives"
   },
   {
     "key": "ANSWER_DB4349",
