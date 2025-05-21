@@ -5176,6 +5176,66 @@
     "value": "connect your Trustpilot account"
   },
   {
+    "key": "YOU_NE_038D98",
+    "value": "You need to have an AfterShip Tracking subscription to collect shipment reviews."
+  },
+  {
+    "key": "TRY_TR_8F4FBC",
+    "value": "Try {{Tracking}}"
+  },
+  {
+    "key": "BACK_0557FA",
+    "value": "Back"
+  },
+  {
+    "key": "GOT_IT_73C685",
+    "value": "Got it"
+  },
+  {
+    "key": "GET_NO_F9F8BE",
+    "value": "Get notified of customer reviews"
+  },
+  {
+    "key": "AFTER_S_92AA0B",
+    "value": "{{AfterShip_Reviews}} allows you to receive email notifications whenever a customer leaves a review."
+  },
+  {
+    "key": "MONITO_447401",
+    "value": "Monitor shipment reviews"
+  },
+  {
+    "key": "TRACKI_8A17F5",
+    "value": "{{Tracking}} users can now receive notifications whenever a customer reviews their shipment."
+  },
+  {
+    "key": "SELECT_6ECBF5",
+    "value": "Select the recipients"
+  },
+  {
+    "key": "CHOOSE_7435F9",
+    "value": "Choose who from your organization will get notified by selecting recipients here."
+  },
+  {
+    "key": "MANAGE_B7FD28",
+    "value": "Manage email recipients"
+  },
+  {
+    "key": "SEARCH_368680",
+    "value": "Search members by name or email address"
+  },
+  {
+    "key": "RECIPI_D6E41F",
+    "value": "recipient"
+  },
+  {
+    "key": "RECIPI_972AF6",
+    "value": "recipients"
+  },
+  {
+    "key": "NO_REC_9651C1",
+    "value": "No recipients found"
+  },
+  {
     "key": "REVIEW_8FBA5E",
     "value": "Review notification settings"
   },
