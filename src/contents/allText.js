@@ -1,6 +1,191 @@
 const allTexts = [
   // components
   {
+    key: 'LINE_H_9A2C1B',
+    value: 'Line height',
+  },
+  {
+    key: 'NEW_DO_97679E',
+    value: 'New document',
+  },
+  {
+    key: 'UNDERL_852721',
+    value: 'Underline',
+  },
+  {
+    key: 'STRIKE_926A51',
+    value: 'Strikethrough',
+  },
+  {
+    key: 'STYLE_EA1A98',
+    value: 'Style select',
+  },
+  {
+    key: 'FORMAT_D3C72E',
+    value: 'Format select',
+  },
+  {
+    key: 'FONT_S_3F16D0',
+    value: 'Font select',
+  },
+  {
+    key: 'FONT_S_FAF0B3',
+    value: 'Font size',
+  },
+  {
+    key: 'CUT_EB334D',
+    value: 'Cut',
+  },
+  {
+    key: 'PASTE_36BB65',
+    value: 'Paste',
+  },
+  {
+    key: 'BLOCK_1D0893',
+    value: 'Block quote',
+  },
+  {
+    key: 'SUBSCR_928558',
+    value: 'Subscript',
+  },
+  {
+    key: 'SUPERS_6316F9',
+    value: 'Superscript',
+  },
+  {
+    key: 'UNDO_1CDC07',
+    value: 'Undo',
+  },
+  {
+    key: 'REDO_5AFEAB',
+    value: 'Redo',
+  },
+  {
+    key: 'BLOCKS_04C4F9',
+    value: 'Blocks',
+  },
+  {
+    key: 'ITALIC_1D8747',
+    value: 'Italic',
+  },
+  {
+    key: 'TEXT_C_04C401',
+    value: 'Text color',
+  },
+  {
+    key: 'BACKGR_0AA94D',
+    value: 'Background color',
+  },
+  {
+    key: 'LEFT_A_79F1F1',
+    value: 'Left align',
+  },
+  {
+    key: 'CENTER_D191DC',
+    value: 'Center align',
+  },
+  {
+    key: 'RIGHT_CD8DF0',
+    value: 'Right align',
+  },
+  {
+    key: 'ALIGN_477E8D',
+    value: 'Align justify',
+  },
+  {
+    key: 'BUL_LI_9DC1C4',
+    value: 'Bul list',
+  },
+  {
+    key: 'NUM_LI_044E51',
+    value: 'Num list',
+  },
+  {
+    key: 'OUTDEN_016839',
+    value: 'Outdent',
+  },
+  {
+    key: 'INDENT_497470',
+    value: 'Indent',
+  },
+  {
+    key: 'CLEAR_3FCEB9',
+    value: 'Clear formatting',
+  },
+  {
+    key: 'HELP_6A26F5',
+    value: 'Help',
+  },
+  {
+    key: 'INSERT_FF49BE',
+    value: 'Insert/edit link',
+  },
+  {
+    key: 'CODE_CA0DBA',
+    value: 'Code',
+  },
+  {
+    key: 'EMOJI_68305E',
+    value: 'Emoji',
+  },
+  // emoji
+  {
+    key: 'SEARCH_133484',
+    value: 'Search',
+  },
+  {
+    key: 'NO_EMO_F17038',
+    value: 'No Emoji Found',
+  },
+  {
+    key: 'SEARCH_F04BE5',
+    value: 'Search Results',
+  },
+  {
+    key: 'FREQUE_AE973D',
+    value: 'Frequently Used',
+  },
+  {
+    key: 'PEOPLE_20BCE0',
+    value: 'People & Body',
+  },
+  {
+    key: 'ANIMAL_AEB1CF',
+    value: 'Animals & Nature',
+  },
+  {
+    key: 'FOOD_FD1FF9',
+    value: 'Food & Drink',
+  },
+  {
+    key: 'ACTIVI_ECFC2D',
+    value: 'Activity',
+  },
+  {
+    key: 'TRAVEL_B0BBF0',
+    value: 'Travel & Places',
+  },
+  {
+    key: 'OBJECT_C8308B',
+    value: 'Objects',
+  },
+  {
+    key: 'SYMBOL_5214A8',
+    value: 'Symbols',
+  },
+  {
+    key: 'FLAGS_4EA780',
+    value: 'Flags',
+  },
+  {
+    key: 'URL_SH_427C44',
+    value: 'URL should begin with http:// or https://',
+  },
+  {
+    key: 'TEXT_T_52077A',
+    value: 'Text to display',
+  },
+  {
     key: 'HEADER_C813A1',
     value: 'Header 1',
   },
