@@ -1,5 +1,173 @@
 [
   {
+    "key": "HEADER_C813A1",
+    "value": "Header 1"
+  },
+  {
+    "key": "HEADER_E5FAF1",
+    "value": "Header 2"
+  },
+  {
+    "key": "HEADER_ECF78A",
+    "value": "Header 3"
+  },
+  {
+    "key": "PARAGR_FEAF0A",
+    "value": "Paragraph"
+  },
+  {
+    "key": "CURREN_B8E86E",
+    "value": "Current window"
+  },
+  {
+    "key": "NEW_WI_AF0A1A",
+    "value": "New window"
+  },
+  {
+    "key": "DRAG_T_B7D728",
+    "value": "Drag the button to the bookmark bar"
+  },
+  {
+    "key": "DEMO_D_5E1113",
+    "value": "demo drag bookmark"
+  },
+  {
+    "key": "YOUR_R_465427",
+    "value": "Your review request emails settings based on package delivery are inactive due to errors in AfterShip subscriptions."
+  },
+  {
+    "key": "WERE_U_7EA0BD",
+    "value": "We’re using your fallback settings for email sending. Please check your AfterShip subscription status and try again."
+  },
+  {
+    "key": "VIEW_I_20FE45",
+    "value": "View In AfterShip"
+  },
+  {
+    "key": "ACTION_8A3847",
+    "value": "Action label"
+  },
+  {
+    "key": "ADD_IN_4A19E1",
+    "value": "Add \"{{inputValue}}\""
+  },
+  {
+    "key": "ITEM_447B71",
+    "value": "item"
+  },
+  {
+    "key": "ITEMS_691D50",
+    "value": "items"
+  },
+  {
+    "key": "TOTAL_0BF37C",
+    "value": "{{total}} selected"
+  },
+  {
+    "key": "SHOWIN_CF974E",
+    "value": "Showing {{total}} {{resourceName}}"
+  },
+  {
+    "key": "UPLOAD_4B28B7",
+    "value": "Upload failed, video must be mp4, WebM, 3GP, MOV, or WMV"
+  },
+  {
+    "key": "UPLOAD_9589E8",
+    "value": "Upload failed, please refresh this page and try again"
+  },
+  {
+    "key": "YOUVE_6C2C26",
+    "value": "You've already uploaded 5 video URLs, delete some to add new ones"
+  },
+  {
+    "key": "DROP_V_FFD3FF",
+    "value": "Drop Video to upload"
+  },
+  {
+    "key": "THE_FO_59F101",
+    "value": "The format is not supported."
+  },
+  {
+    "key": "YOUVE_21F132",
+    "value": "You've already uploaded a video, delete it to add a new one"
+  },
+  {
+    "key": "DROP_P_2C544C",
+    "value": "Drop Photo to upload"
+  },
+  {
+    "key": "REVIEW_8ABD88",
+    "value": "Review commented date"
+  },
+  {
+    "key": "UPLOAD_29016F",
+    "value": "Upload or delete any photos or videos. A review can have a maximum of 6 photos and 5 video links."
+  },
+  {
+    "key": "ENTER_D27F95",
+    "value": "Enter a valid URL"
+  },
+  {
+    "key": "VIDEO_E5AB04",
+    "value": "Video URL"
+  },
+  {
+    "key": "PASTE_34C4A5",
+    "value": "Paste a URL that links to your review video"
+  },
+  {
+    "key": "REVIEW_221C8A",
+    "value": "Review updated"
+  },
+  {
+    "key": "FILE_N_64B863",
+    "value": "File not supported. Please upload an image file (png, jpg, svg) only."
+  },
+  {
+    "key": "SEARCH_06A943",
+    "value": "search"
+  },
+  {
+    "key": "SEARCH_9600A2",
+    "value": "Search by member name or email"
+  },
+  {
+    "key": "COUNT_49AE71",
+    "value": "{{count}} more selected"
+  },
+  {
+    "key": "SPINNE_9B2C85",
+    "value": "Spinner"
+  },
+  {
+    "key": "IMPORT_DF50AE",
+    "value": "Important: Your analytics are no longer being updated as of September 19, 2024"
+  },
+  {
+    "key": "YOU_NE_C990E7",
+    "value": "You need to update data access for us on Shopify so we can keep updating your analytics."
+  },
+  {
+    "key": "IF_YOU_54ADBF",
+    "value": "If you cannot update access, you might need to ask the store owner to grant you the \"Approve app charges\" permission."
+  },
+  {
+    "key": "UPDATE_1A01CE",
+    "value": "Update data access"
+  },
+  {
+    "key": "SORRY_D1AD77",
+    "value": "Sorry, that page does not exist"
+  },
+  {
+    "key": "NOT_FO_BDAEC9",
+    "value": "Not Found"
+  },
+  {
+    "key": "OOPS_76390D",
+    "value": "Oops..."
+  },
+  {
     "key": "PLEASE_27EEA7",
     "value": "Please connect your Shopify store"
   },
