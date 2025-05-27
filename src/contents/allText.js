@@ -1,6 +1,22 @@
 const allTexts = [
   // components
   {
+    key: 'DISCOU_A37C54',
+    value: 'DISCOUNT',
+  },
+  {
+    key: 'REFERR_C5BE7B',
+    value: 'Referral discount',
+  },
+  {
+    key: 'ADVOCA_B2CA45',
+    value: 'Advocate discount',
+  },
+  {
+    key: 'ORDER_6575D9',
+    value: 'ORDER',
+  },
+  {
     key: 'LINE_H_9A2C1B',
     value: 'Line height',
   },
@@ -7599,6 +7615,18 @@ const allTexts = [
   },
   // Answer invitations
   {
+    key: 'ANSWER_0CF1E5',
+    value: 'Answer invitation email',
+  },
+  {
+    key: 'INTERR_7D29E2',
+    value: 'interrupt in activeCheck',
+  },
+  {
+    key: 'INTERR_E3F874',
+    value: 'interrupt in riskcheck',
+  },
+  {
     key: 'ONLY_O_497F12',
     value: 'Only once when a question is submitted',
   },
@@ -7795,6 +7823,329 @@ const allTexts = [
   {
     key: 'SETTIN_4E2395',
     value: 'Settings',
+  },
+  // saga
+  {
+    key: 'ENABLE_D7BA9E',
+    value: 'Enabled successfully',
+  },
+  {
+    key: 'DISABL_CCF59A',
+    value: 'Disabled successfully',
+  },
+  {
+    key: 'REVIEW_CFAB69',
+    value: 'Review requests email enabled',
+  },
+  {
+    key: 'REVIEW_1AA524',
+    value: 'Review requests email disabled',
+  },
+  {
+    key: 'NPS_EM_EF16F2',
+    value: 'NPS emails enabled',
+  },
+  {
+    key: 'NPS_EM_E54188',
+    value: 'NPS emails disabled',
+  },
+  {
+    key: 'STAR_W_41B086',
+    value: 'Star widget updated',
+  },
+  // onboarding
+  {
+    key: 'REVIEW_64E2BD',
+    value: 'review widget example',
+  },
+  {
+    key: 'STEP_1_C8EA30',
+    value: 'Step 1 of 3',
+  },
+  {
+    key: 'COLLEC_09D979',
+    value: 'Collect reviews after purchase automatically',
+  },
+  {
+    key: 'INCREA_CF7988',
+    value: 'Increase customer engagement and collect their feedback.',
+  },
+  {
+    key: 'EMAIL_A3339C',
+    value: 'Email trigger',
+  },
+  {
+    key: 'DAYS_A_0AF839',
+    value: `{{days}} after order fulfillment`,
+  },
+  {
+    key: 'STEP_2_EDBA56',
+    value: `Step 2 of 3`,
+  },
+  {
+    key: 'SHOW_P_59D976',
+    value: `Show product reviews on your store`,
+  },
+  {
+    key: 'BUILD_737204',
+    value: `Build trust with your customers.`,
+  },
+  {
+    key: 'ENABLE_C99C9E',
+    value: `Enable review widget and star rating widget`,
+  },
+  {
+    key: 'ENABLE_94F2F9',
+    value: `Enable review widget`,
+  },
+  {
+    key: 'STEP_3_9F921C',
+    value: `Step 3 of 3`,
+  },
+  {
+    key: 'INSERT_B397A3',
+    value: `Insert reviews widgets into product page using Shopify theme editor`,
+  },
+  {
+    key: 'GO_TO_CCCB61',
+    value: `Go to theme customize`,
+  },
+  {
+    key: 'SKIP_F_906594',
+    value: `Skip for now`,
+  },
+  {
+    key: 'BULK_I_3B0BAF',
+    value: `Bulk import reviews from AliExpress`,
+  },
+  {
+    key: 'FIRST_1379F6',
+    value: `First, drag button to your browser's bookmark bar`,
+  },
+  {
+    key: 'ONCE_D_738E6C',
+    value: `Once done, head to an AliExpress product page to import reviews.`,
+  },
+  {
+    key: 'EXAMPL_0A5273',
+    value: `Example:`,
+  },
+  {
+    key: 'I_AM_R_377B55',
+    value: `I am ready`,
+  },
+  {
+    key: 'ARROW_51740E',
+    value: `arrow up`,
+  },
+  {
+    key: 'YOULL_900944',
+    value: `You'll need to add the reviews widget and star rating to your Shopify theme to display them in your store. `,
+  },
+  {
+    key: 'YOULL_A07838',
+    value: `You'll need to add star rating to your Shopify theme to display them in your store. `,
+  },
+  {
+    key: 'YOULL_616AD3',
+    value: `You'll need to add the reviews widget to your Shopify theme to display them in your store. `,
+  },
+  {
+    key: 'SHOW_M_4855E2',
+    value: `Show me how`,
+  },
+  {
+    key: 'ADD_TO_CAF915',
+    value: `Add to Shopify theme`,
+  },
+  {
+    key: 'IVE_DO_0915C3',
+    value: `I've done it`,
+  },
+  {
+    key: 'FEATUR_F55D49',
+    value: `Featured review widget enabled`,
+  },
+  {
+    key: 'FEATUR_0A9DF3',
+    value: `Featured review widget disabled`,
+  },
+  // billing
+  {
+    key: 'YOUVE_57697C',
+    value: `You’ve used up your {{billing_interval}} quota. {{upgrade_pure_button}} to resume auto-sending`,
+  },
+  {
+    key: 'YOUVE_C34446',
+    value: `You’ve used up your {{billing_interval}} quota. {{upgrade_pure_button}} to keep sending emails`,
+  },
+  {
+    key: 'YOUVE_3524D1',
+    value: `You've used up your {{billing_interval}} quota. Even if your review request email is approved, it still won't be sent automatically unless you have available quota. {{upgrade_now}}`,
+  },
+  {
+    key: 'THIS_E_6D89F0',
+    value: `This email will automatically be sent after your review request email is approved`,
+  },
+  {
+    key: 'EMAILS_B2552E',
+    value: `Emails cannot be sent as you have violated email compliance rules`,
+  },
+  {
+    key: 'TO_USE_AC5ADB',
+    value: `To use NPS emails, upgrade to {{planName}} or higher. {{upgrade_unlock_button}}`,
+  },
+  {
+    key: 'THIS_E_A337A2',
+    value: `This email will automatically be sent after your nps email is approved`,
+  },
+  {
+    key: 'TO_EDI_8974CE',
+    value: `To edit your auto-publish settings, upgrade to {{planName}} or higher. {{upgrade_unlock_button}}`,
+  },
+  {
+    key: 'TO_EDI_0DC2BD',
+    value: `To edit New review notifications settings, upgrade to {{planName}} or higher. {{upgrade_unlock_button}}`,
+  },
+  {
+    key: 'TO_USE_CCAD02',
+    value: `To use the order delivery trigger, upgrade to {{planName}} or higher. {{upgrade_unlock_button}}`,
+  },
+  {
+    key: 'YOUR_E_D9D994',
+    value: `Your emails are being sent using the fallback trigger. You can {{change_email_trigger}}, or {{upgrade_pure_button}} to {{planName}} or higher to use the order delivery trigger.`,
+  },
+  {
+    key: 'THE_DI_2FC4E4',
+    value: `The discount merge tags in your review request email template ({{languages}}) will not be displayed as referral discounts are disabled. To avoid errors, {{edit_your_email_template}}, or {{upgrade_pure_button}} to Pro or higher to use referral discounts.`,
+  },
+  {
+    key: 'TO_USE_D459C2',
+    value: `To use the "Write a review" button, upgrade to Essentials or higher. {{upgrade_unlock_button}}`,
+  },
+  {
+    key: 'YOUR_C_773051',
+    value: `Your current plan only allows you to set a minimum order value for emails. To use other rules, upgrade to {{planName}} or higher. {{upgrade_unlock_button}}`,
+  },
+  {
+    key: 'UPGRAD_F68358',
+    value: `Upgrade`,
+  },
+  {
+    key: 'UPGRAD_CC34CA',
+    value: `Upgrade now`,
+  },
+  {
+    key: 'UPGRAD_0C99BD',
+    value: `Upgrade plan`,
+  },
+  {
+    key: 'UPGRAD_1A4600',
+    value: `Upgrade and unlock`,
+  },
+  {
+    key: 'UPGRAD_154F9E',
+    value: `upgrade to {{planGroupName}}`,
+  },
+  {
+    key: 'YOU_O_B61CD0',
+    value: `⏰ You only have {{date}} {{days}} left to access this feature. Upgrade to {{planName}} or higher now.`,
+  },
+  {
+    key: 'YOU_O_B46607',
+    value: `⏰ You only have {{date}} {{days}} left to access this feature. Upgrade to {{planName}} or higher now. {{upgrade_plan_button}}`,
+  },
+  {
+    key: 'YOU_O_585A7B',
+    value: `⏰ You only have {{date}} {{days}} left to access this feature. To continue using it after the free trial ends, {{upgrade_to_plan_button}} or higher now.`,
+  },
+  {
+    key: 'YOUR_F_2F8CBC',
+    value: `Your free trial of the {{planName}} plan has ended. Upgrade now to continue using our {{planName}} features.{{upgrade_to_plan_button}}`,
+  },
+  {
+    key: 'UPGRAD_DEA0B0',
+    value: `Upgrade to {{planName}} or higher to unlock this feature.`,
+  },
+  {
+    key: 'UPGRAD_964D5E',
+    value: `Upgrade your plan to {{planName}} or higher to unlock this feature. {{upgrade_unlock_button}}`,
+  },
+  {
+    key: 'THE_FE_801E5D',
+    value: `The {{featureName}} cannot be saved as it’s a {{planName}} plan feature. To use it, {{upgrade_to_plan_button}} or higher.`,
+  },
+  {
+    key: 'THE_FE_D7B271',
+    value: `The {{featureName}} cannot be saved as it’s a {{planName}} plan feature. To use it, {{upgrade_to_plan_button}} or higher.If you have further questions, feel free to {{contact_button}}.`,
+  },
+  {
+    key: 'UPGRAD_4BF531',
+    value: `Upgrade to {{planName}} or higher to unlock, or {{contact_button}} to verify your store and enable this feature for free.`,
+  },
+  {
+    key: 'TO_USE_46DAF4',
+    value: `To use {{featureName}}, upgrade to {{planName}} or higher. {{upgrade_unlock_button}}`,
+  },
+  {
+    key: 'TO_USE_02D0B7',
+    value: `To use {{featureName}}, upgrade to {{planName}} or higher.`,
+  },
+  {
+    key: 'TO_EDI_BFBAEC',
+    value: `To edit {{featureName}}, upgrade to {{planName}} or higher. {{upgrade_unlock_button}}`,
+  },
+  {
+    key: 'THE_FE_0893AC',
+    value: `The {{featureName}} section won’t be display in this email. Upgrade to {{planName}} to unlock this feature. {{upgrade_unlock_button}}`,
+  },
+  {
+    key: 'CONTAC_3A62B2',
+    value: `contact support`,
+  },
+  {
+    key: 'AUTOMA_93D63E',
+    value: `automated emails`,
+  },
+  {
+    key: 'MANUAL_9DBFDD',
+    value: `manual emails`,
+  },
+  {
+    key: 'STOREF_A8F2E1',
+    value: `storefront`,
+  },
+  {
+    key: 'REVIEW_CDB9CC',
+    value: `Reviews collected from emails or submitted on your storefront will not be auto-published. `,
+  },
+  {
+    key: 'PLAN_RE_1F0329',
+    value: `{{planRemainDays}} days left on your free trial. Choose a plan or chat with us to extend your trial for 7 more days.`,
+  },
+  {
+    key: 'AUTOMA_9A6C3D',
+    value: `Automatic review requests can't be sent because you've used up your quota.`,
+  },
+  {
+    key: 'PLAN_RE_B518C3',
+    value: `{{planRemainDays}} days left on your free trial. Ready to choose a plan?`,
+  },
+  {
+    key: 'COMPAR_61228E',
+    value: `Compare plans`,
+  },
+  {
+    key: 'CONTAC_9DD734',
+    value: `Contact sales`,
+  },
+  {
+    key: 'INCREA_60503E',
+    value: `Increase quota`,
+  },
+  {
+    key: 'GET_MO_3119DE',
+    value: `Get more credits`,
   },
 ];
 
