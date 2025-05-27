@@ -6646,5 +6646,29 @@
   {
     "key": "GET_MO_3119DE",
     "value": "Get more credits"
+  },
+  {
+    "key": "ESSENT_4D55F7",
+    "value": "Essentials"
+  },
+  {
+    "key": "PRO_ABD900",
+    "value": "Pro"
+  },
+  {
+    "key": "WANT_T_3E8602",
+    "value": "Want to compare all features?"
+  },
+  {
+    "key": "VIEW_T_9167E5",
+    "value": "View the plans page"
+  },
+  {
+    "key": "SUBSCR_B1CAF4",
+    "value": "Subscribe to the {{planGroupName}} plan now to access:"
+  },
+  {
+    "key": "UNLOCK_C1A832",
+    "value": "Unlock {{planGroupName}} features"
   }
 ]
