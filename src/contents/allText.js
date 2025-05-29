@@ -8372,6 +8372,75 @@ const allTexts = [
     key: 'HIDDEN_740C53',
     value: `...+{{hiddenCount}} more`,
   },
+  {
+    key: 'YOU_AR_4795F6',
+    value: 'You are about to install Trustpilot',
+  },
+  {
+    key: 'STRUGG_230209',
+    value: 'Struggling with setup?',
+  },
+  {
+    key: 'NOW_TH_337DA7',
+    value:
+      "Now that you're connected, how about a free guided demo to help you get the most out of AfterShip?",
+  },
+  {
+    key: 'GET_EX_32E9D0',
+    value: 'Get expert help',
+  },
+  {
+    key: 'ADD_NE_834B60',
+    value: 'Add new connection',
+  },
+  {
+    key: 'THIS_I_706BD1',
+    value:
+      "This is only available for paid Trustpilot customers. If you don't have a paid Trustpilot account, you need to",
+  },
+  {
+    key: 'SIGN_U_2546B9',
+    value: 'sign up or upgrade',
+  },
+  {
+    key: 'TO_ALL_8AC650',
+    value: 'To allow us to connect, first enable',
+  },
+  {
+    key: 'TRUSTP_C7E49F',
+    value: 'Trustpilot partner permissions',
+  },
+  {
+    key: 'HOW_TH_0CFE2D',
+    value: 'HOW THIS CONNECTION WORKS',
+  },
+  {
+    key: 'CONTRO_FD135D',
+    value:
+      'Control when to trigger Trustpilot review invitation emails directly from AfterShip Reviews',
+  },
+  {
+    key: 'ALL_NE_9512CD',
+    value:
+      'All new and existing Trustpilot reviews will be automatically synced to AfterShip Reviews so you can manage them easily in one place',
+  },
+  {
+    key: 'YOU_CA_740AF5',
+    value:
+      'You can reply to Trustpilot reviews and choose to showcase them on your store directly from AfterShip Reviews',
+  },
+  {
+    key: 'TRUSTP_FDFAC7',
+    value: 'Trustpilot business profile page URL',
+  },
+  {
+    key: 'CANCEL_5B51FE',
+    value: 'Cancel',
+  },
+  {
+    key: 'INSTAL_AAFE20',
+    value: 'Install app',
+  },
 ];
 
 module.exports = {
