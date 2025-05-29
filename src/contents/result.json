@@ -6670,5 +6670,197 @@
   {
     "key": "UNLOCK_C1A832",
     "value": "Unlock {{planGroupName}} features"
+  },
+  {
+    "key": "SOURCE_C4C6EB",
+    "value": "Source product"
+  },
+  {
+    "key": "ACTIVE_E10DCD",
+    "value": "Active product group"
+  },
+  {
+    "key": "VIEW_P_B73447",
+    "value": "View product groups"
+  },
+  {
+    "key": "PRODUC_6D0D37",
+    "value": "Products share reviews with other items in their active product group. You can change a product’s active product group using the dropdown below."
+  },
+  {
+    "key": "CURREN_C3646B",
+    "value": "Current product only"
+  },
+  {
+    "key": "PRODUC_1A05C7",
+    "value": "Product groups"
+  },
+  {
+    "key": "NO_PRO_E8DE73",
+    "value": "No product group found"
+  },
+  {
+    "key": "CSV_IM_F39C90",
+    "value": "CSV import"
+  },
+  {
+    "key": "CREATE_827378",
+    "value": "Create group"
+  },
+  {
+    "key": "SHARE_8BFA66",
+    "value": "Share reviews between related products"
+  },
+  {
+    "key": "GROUP_06A1CE",
+    "value": "Group products to share reviews between them. Perfect for products that are the same but displayed on different product pages."
+  },
+  {
+    "key": "NO_GRO_3DDE75",
+    "value": "No groups yet"
+  },
+  {
+    "key": "GROUP_4F50E6",
+    "value": "Group name"
+  },
+  {
+    "key": "GROUP_23EE1E",
+    "value": "Group type"
+  },
+  {
+    "key": "PRODUC_068F80",
+    "value": "Products"
+  },
+  {
+    "key": "CSV_IM_8765AF",
+    "value": "CSV import has {{successCount}} successes and"
+  },
+  {
+    "key": "FAIL_CO_C07940",
+    "value": "{{failCount}} failures."
+  },
+  {
+    "key": "IMPORT_7F0B22",
+    "value": "Import file"
+  },
+  {
+    "key": "CSV_IM_8E9651",
+    "value": "CSV import complete"
+  },
+  {
+    "key": "SUCCES_6BC789",
+    "value": "{{successCount}} items imported successfully. {{failCount}} items could not be imported."
+  },
+  {
+    "key": "VIEW_E_3E3DAF",
+    "value": "View error log"
+  },
+  {
+    "key": "IMPORT_ED31CA",
+    "value": "Import by CSV"
+  },
+  {
+    "key": "CHOOSE_30D0A0",
+    "value": "Choose the method you use to sort your product groups."
+  },
+  {
+    "key": "IMPORT_70E429",
+    "value": "Import using our"
+  },
+  {
+    "key": "CSV_TE_5A6E69",
+    "value": "CSV template"
+  },
+  {
+    "key": "DUPLIC_93D3D9",
+    "value": "Duplicate products will be overwritten. Files must not exceed 10 MB."
+  },
+  {
+    "key": "TO_LEA_43730B",
+    "value": "To learn what each field in the template refers to, check our help article on"
+  },
+  {
+    "key": "IMPORT_47F4DC",
+    "value": "importing CSV files"
+  },
+  {
+    "key": "MAXIMU_5FB941",
+    "value": "Maximum file size: 10 MB."
+  },
+  {
+    "key": "DROP_C_F0E8CE",
+    "value": "Drop CSV file here to upload"
+  },
+  {
+    "key": "REPLAC_5F5C67",
+    "value": "Replace file"
+  },
+  {
+    "key": "BY_IND_46DFB7",
+    "value": "By individual products"
+  },
+  {
+    "key": "BY_PRO_D1CCE0",
+    "value": "By product tags"
+  },
+  {
+    "key": "CREATE_686E69",
+    "value": "Create"
+  },
+  {
+    "key": "GROUP_BDEEDC",
+    "value": "Group saved"
+  },
+  {
+    "key": "EDIT_G_22336D",
+    "value": "Edit group"
+  },
+  {
+    "key": "INDIVI_CA7E56",
+    "value": "Individual products"
+  },
+  {
+    "key": "PRODUC_8CF3ED",
+    "value": "Product tags"
+  },
+  {
+    "key": "COMING_232DF2",
+    "value": "Coming soon"
+  },
+  {
+    "key": "GROUP_39E327",
+    "value": "Group deleted"
+  },
+  {
+    "key": "DELETE_D34460",
+    "value": "Delete group?"
+  },
+  {
+    "key": "DELETI_A6CA01",
+    "value": "Deleting a group will unshare the reviews among the group's products. Reviews won't be deleted."
+  },
+  {
+    "key": "SAVE_G_B99531",
+    "value": "Save group?"
+  },
+  {
+    "key": "YOUVE_87F696",
+    "value": "You've made changes to the rules. Are you sure you want to save?"
+  },
+  {
+    "key": "SEARCH_54D319",
+    "value": "Search by group name"
+  },
+  {
+    "key": "INDIVI_7149FB",
+    "value": "Individual products ({{allRulesCount}})"
+  },
+  {
+    "key": "PRODUC_FCDCF2",
+    "value": "Product tags ({{allRules}})"
+  },
+  {
+    "key": "HIDDEN_740C53",
+    "value": "...+{{hiddenCount}} more"
   }
 ]
