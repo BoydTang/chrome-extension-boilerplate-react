@@ -8441,6 +8441,144 @@ const allTexts = [
     key: 'INSTAL_AAFE20',
     value: 'Install app',
   },
+  {
+    key: 'DELETE_CB3D9F',
+    value: 'Delete reply',
+  },
+  {
+    key: 'ARE_YO_AED22D',
+    value:
+      "Are you sure you want to delete your reply? You won't be able to restore your response once it is deleted.",
+  },
+  {
+    key: 'THE_CS_4BCB87',
+    value: 'The CSV file is empty, please add content and try again.',
+  },
+  {
+    key: 'DISCOU_F8A4FD',
+    value: 'Discount value must be between 0 and 100',
+  },
+  {
+    key: 'LABEL_086264',
+    value: '{{label}} must be a positive number',
+  },
+  {
+    key: 'DISCOU_07AF6D',
+    value: 'Discount value must be a positive number',
+  },
+  {
+    key: 'DISCOU_34214D',
+    value: 'Discount will expire after',
+  },
+  {
+    key: 'FREE_S_9287D1',
+    value: 'Free shipping max amount',
+  },
+  {
+    key: 'THIS_D_B42942',
+    value:
+      'This discount requires a minimum order subtotal must be a positive number',
+  },
+  {
+    key: 'DISCOU_A4E7EA',
+    value: 'Discount will expire after must be a positive number',
+  },
+  {
+    key: 'DISCOU_310D9C',
+    value: `Discount will expire after must be a 'number' type, but the final value was: 'NaN' (cast from the value '""').`,
+  },
+  {
+    key: 'DISCOU_237605',
+    value: `Discount will expire after must be an integer`,
+  },
+  {
+    key: 'DAYS_A_1BC043',
+    value: `Days after order delivery is required.`,
+  },
+  {
+    key: 'PLEASE_5FAD05',
+    value: `Please enter an integer between 1 and 90.`,
+  },
+  {
+    key: 'THIS_F_EA4BC6',
+    value: `This field is required`,
+  },
+  {
+    key: 'SENDER_9E32BE',
+    value: `Sender name is required.`,
+  },
+  {
+    key: 'NAME_M_3C3B02',
+    value: `Name must be at most 2000 characters`,
+  },
+  {
+    key: 'DAYS_A_4CE2F3',
+    value: `Days after order fulfillment is required.`,
+  },
+  {
+    key: 'TIMING_122D2B',
+    value: `Timing trigger is a required field`,
+  },
+  {
+    key: 'ENTER_9E2953',
+    value: `Enter a valid email`,
+  },
+  {
+    key: 'PLEASE_5835D5',
+    value: `Please enter a valid email.`,
+  },
+  {
+    key: 'EMAIL_A21F47',
+    value: `Email is required.`,
+  },
+  {
+    key: 'SEND_A_FA60BD',
+    value: `Send a test email`,
+  },
+  {
+    key: 'SEND_94966D',
+    value: `Send`,
+  },
+  {
+    key: 'ENTER_D25837',
+    value: `Enter a whole number or up to 2 decimal places.`,
+  },
+  {
+    key: 'MAXIMU_E11E66',
+    value: `Maximum length is 30`,
+  },
+  {
+    key: 'REMIND_B73CEC',
+    value: `Reminder email subject is a required field`,
+  },
+  {
+    key: 'ADD_FI_B9BD24',
+    value: `Add file`,
+  },
+  {
+    key: 'OR_DRO_EEEC31',
+    value: `or drop a file to upload`,
+  },
+  {
+    key: 'ENTER_41251C',
+    value: `Enter an email`,
+  },
+  {
+    key: 'ENTER_CB9230',
+    value: `Enter an order number`,
+  },
+  {
+    key: 'PLEASE_77E8C4',
+    value: `Please enter an integer between 0 and 90.`,
+  },
+  {
+    key: 'NAME_A_03EDAB',
+    value: `Name already being used. Enter a new one.`,
+  },
+  {
+    key: 'SELECT_D8F567',
+    value: `Select at least 1 product`,
+  },
 ];
 
 module.exports = {
