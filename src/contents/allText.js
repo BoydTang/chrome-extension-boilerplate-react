@@ -8579,6 +8579,10 @@ const allTexts = [
     key: 'SELECT_D8F567',
     value: `Select at least 1 product`,
   },
+  {
+    key: 'TALK_T_90A799',
+    value: `talk to our support team (24x7)`,
+  },
 ];
 
 module.exports = {

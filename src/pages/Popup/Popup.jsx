@@ -4,7 +4,7 @@ import { CrawlText } from '../../containers/CrawlText';
 import { SearchCode } from '../../containers/SearchCode';
 
 const Popup = () => {
-  const [activeTab, setActiveTab] = React.useState('extract_text');
+  const [activeTab, setActiveTab] = React.useState('search_code');
   return (
     <div className="App">
       <div>
