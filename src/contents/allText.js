@@ -8583,6 +8583,162 @@ const allTexts = [
     key: 'TALK_T_90A799',
     value: `talk to our support team (24x7)`,
   },
+  {
+    key: 'REVIEW_AD81D8',
+    value: `Reviewer name is a required field`,
+  },
+  {
+    key: 'REVIEW_5F64CF',
+    value: `Reviewer email must be a valid email`,
+  },
+  {
+    key: 'REVIEW_F796D5',
+    value: `Review content is a required field`,
+  },
+  {
+    key: 'REVIEW_92D777',
+    value: `Review content must be at least 10 characters`,
+  },
+  {
+    key: 'REVIEW_E6B2E4',
+    value: `Review content must be at most 2000 characters`,
+  },
+  {
+    key: 'START_34146D',
+    value: `Start importing`,
+  },
+  {
+    key: 'WE_WIL_23CA9D',
+    value: `We will email {{userEmail}} when the reviews import process is completed.`,
+  },
+  {
+    key: 'FAILED_6C664D',
+    value: `Failed to import`,
+  },
+  {
+    key: 'THESE_79767F',
+    value: `These product handles don't exist in your store.`,
+  },
+  {
+    key: 'PRODUC_890BD2',
+    value: `Product handle `,
+  },
+  {
+    key: 'REVIEW_4B7313',
+    value: `Reviews widget enabled`,
+  },
+  {
+    key: 'REVIEW_AD0C33',
+    value: `Reviews widget disabled`,
+  },
+  {
+    key: 'SAVE_F_51401C',
+    value: `Save form?`,
+  },
+  {
+    key: 'YOUR_F_F3DD15',
+    value: `Your form contains over 2 required questions, which may impact review submission rates. Save this form anyway?`,
+  },
+  {
+    key: 'YOU_HA_E16E9D',
+    value: `You have unsaved changes`,
+  },
+  {
+    key: 'SAVE_A_910350',
+    value: `Save and exit`,
+  },
+  {
+    key: 'EXIT_W_6994D6',
+    value: `Exit without saving`,
+  },
+  {
+    key: 'DO_YOU_2E7466',
+    value: `Do you want to save your changes before exiting?`,
+  },
+  {
+    key: 'YOU_HA_4DC7E0',
+    value: `You have unsaved changes on this page`,
+  },
+  {
+    key: 'LEAVE_2E2383',
+    value: `Leave page`,
+  },
+  {
+    key: 'IF_YOU_572572',
+    value: `If you leave this page, all unsaved changes will be lost. Are you sure you want to leave this page?`,
+  },
+  {
+    key: 'INDEPE_9E0C65',
+    value: `Independent (not assigned)`,
+  },
+  {
+    key: 'YOUR_A_A040C2',
+    value: `Your AfterShip subscription has ended. To use the order delivery trigger,`,
+  },
+  {
+    key: 'RENEW_BDA048',
+    value: `renew your AfterShip subscription.`,
+  },
+  {
+    key: 'NEW_PE_0E8AFF',
+    value: `New Pending status`,
+  },
+  {
+    key: 'TO_ALI_6BA384',
+    value: `To align with recent guidelines from the U.S. Federal Trade Commission (FTC), reviews that are not immediately auto-published will now stay pending for 14 days before being auto-published. You can change your rules in`,
+  },
+  {
+    key: 'CODE_C_6B8A46',
+    value: `Code copied`,
+  },
+  {
+    key: 'NPS_TYP_81E1AA',
+    value: `{{NPSType}} (Score:{{ScoreScope}})`,
+  },
+  {
+    key: 'SEND_R_49FB29',
+    value: `Send review invitations`,
+  },
+  {
+    key: 'STORE_CFC93D',
+    value: `Store language`,
+  },
+  {
+    key: 'YOU_CA_D3ABB8',
+    value: `You can manage and publish your store languages by going to "Settings" > "Languages"`,
+  },
+  {
+    key: 'STORE_2A39E0',
+    value: `Store language was deleted`,
+  },
+  {
+    key: 'ENTER_5AB22A',
+    value: `Enter a valid template ID`,
+  },
+  {
+    key: 'TRUSTP_0815ED',
+    value: `Trustpilot template ID`,
+  },
+  {
+    key: 'HOW_TO_A865BE',
+    value: `How to find the template ID`,
+  },
+  {
+    key: 'IN_YOU_F5AB9D',
+    value: `In your Trustpilot account, go to "Get reviews" > "Email templates". After selecting the language template, you'll find the ID for that language under the "Template name" textbox.`,
+  },
+  {
+    key: 'OPEN_T_D5AE70',
+    value: `Open Trustpilot`,
+  },
+  {
+    key: 'SELECT_E06262',
+    value: `Select...`,
+  },
+  {
+    key: 'VERIFI_77CDB8',
+    value: `Verified buyer`,
+  },
 ];
 
 module.exports = {
