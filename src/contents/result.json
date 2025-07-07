@@ -7214,5 +7214,161 @@
   {
     "key": "VERIFI_77CDB8",
     "value": "Verified buyer"
+  },
+  {
+    "key": "WE_SUP_E6F598",
+    "value": "We support uploading CSV files from many reviews apps. If your app is not listed, select \"Other\" from the dropdown and fill in our"
+  },
+  {
+    "key": "AFTERS_91079B",
+    "value": "{{AfterShip_Reviews}} CSV template"
+  },
+  {
+    "key": "TO_IMP_9499B3",
+    "value": "to import reviews."
+  },
+  {
+    "key": "VIEW_R_099540",
+    "value": "View reviews import guide"
+  },
+  {
+    "key": "SELECT_9A3316",
+    "value": "Select an app and upload CSV file"
+  },
+  {
+    "key": "SELECT_6EF5A7",
+    "value": "Select a reviews app"
+  },
+  {
+    "key": "UPLOAD_C9CB88",
+    "value": "Upload CSV"
+  },
+  {
+    "key": "SEARCH_0CDDEA",
+    "value": "Search apps"
+  },
+  {
+    "key": "AND_FI_F69660",
+    "value": "and fill it out."
+  },
+  {
+    "key": "ANY_RE_02CAE0",
+    "value": "Any reviews not following the template format will not be imported."
+  },
+  {
+    "key": "MAXIMU_2D1C47",
+    "value": "Maximum file size: 10MB."
+  },
+  {
+    "key": "EXPORT_84E6B4",
+    "value": "Export your"
+  },
+  {
+    "key": "REVIEW_193602",
+    "value": "reviews first by following"
+  },
+  {
+    "key": "S_OFFI_1707D0",
+    "value": "{{review_name}}'s official guide"
+  },
+  {
+    "key": "THEN_U_325437",
+    "value": ", then upload the exported CSV file here."
+  },
+  {
+    "key": "SORRY_3EBD80",
+    "value": "Sorry, we're still working to support CSV files from this app. In the meantime, you can use our {{AfterShip_Reviews}} template to import reviews."
+  },
+  {
+    "key": "CSV_IM_CDF29B",
+    "value": "CSV import complete."
+  },
+  {
+    "key": "SUCCES_669125",
+    "value": "{{success_count}} items successfully uploaded,"
+  },
+  {
+    "key": "FAILED_2E540E",
+    "value": "{{failed_count}} items failed to upload"
+  },
+  {
+    "key": "TOTAL_A0C891",
+    "value": "({{total_count}} items in total)."
+  },
+  {
+    "key": "HOW_TO_6C7245",
+    "value": "How to fix upload errors"
+  },
+  {
+    "key": "DOWNLO_C624E1",
+    "value": "Download the error file to view reviews that failed to import along with the error reason."
+  },
+  {
+    "key": "MAKE_C_25D102",
+    "value": "Make corrections in your CSV file."
+  },
+  {
+    "key": "UPLOAD_C23C06",
+    "value": "Upload your updated CSV file (successfully uploaded reviews won't be re-uploaded)."
+  },
+  {
+    "key": "DOWNLO_4477E4",
+    "value": "Download error file"
+  },
+  {
+    "key": "PROGRE_CE4AF5",
+    "value": "{{progress}}% completed"
+  },
+  {
+    "key": "IMPORT_9369DF",
+    "value": "Importing will continue even if you close this dialog box."
+  },
+  {
+    "key": "CSV_IM_556B51",
+    "value": "CSV import in progress, try again later"
+  },
+  {
+    "key": "OTHER_1A59D8",
+    "value": "Other (Use {{AfterShip_Reviews}} template)"
+  },
+  {
+    "key": "NO_APP_4B7458",
+    "value": "no apps found"
+  },
+  {
+    "key": "EXPORT_D53488",
+    "value": "Export your {{app_name}} reviews first by following"
+  },
+  {
+    "key": "CSV_IM_788449",
+    "value": "CSV import progress: {{percent}}%"
+  },
+  {
+    "key": "CSV_IM_D174C8",
+    "value": "CSV import complete. {{success_count}} items successfully uploaded."
+  },
+  {
+    "key": "TRY_CH_4BEB50",
+    "value": "Try changing the search term."
+  },
+  {
+    "key": "IMPORT_71E1AB",
+    "value": "Importing reviews from CSV"
+  },
+  {
+    "key": "FILE_C_A05356",
+    "value": "File cannot exceed 10 MB or 10,000 lines."
+  },
+  {
+    "key": "FILE_T_2080D9",
+    "value": "File type must be CSV. "
+  },
+  {
+    "key": "FILE_C_99AA1D",
+    "value": "File contains an unsupported date format, or you’re using multiple date formats. The following formats are accepted: MM/DD/YYYY, DD/MM/YYYY, DD.MM.YYYY, YYYY.MM.DD, YYYY-MM-DD, Mon DD, YYYY (e.g. Jan 20, 2023), and Mon. DD, YYYY (e.g. Jan. 20, 2023)."
+  },
+  {
+    "key": "YOU_AR_E5D86E",
+    "value": "You are importing too frequently. Please wait and try again."
   }
 ]
