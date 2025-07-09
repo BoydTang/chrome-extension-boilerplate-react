@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { generateCSV } from '../../node_script/mock_reviews/utils';
+import { Button, Input, Space } from 'antd';
 
 export const GenerateProductReviews = () => {
   const [count, setCount] = useState(10);
@@ -37,8 +38,17 @@ export const GenerateProductReviews = () => {
   return (
     <div>
       <h1>Generate Product Reviews</h1>
-      <input value={count} onChange={handleOnChangeCount} type="number"></input>
-      <button onClick={handleGenerateReviews}>Generate Reviews</button>
+      <Space.Compact style={{ width: '100%' }}>
+        <Input
+          defaultValue={count}
+          onChange={handleOnChangeCount}
+          size="large"
+          type="number"
+        />
+        <Button type="primary" onClick={handleGenerateReviews} size="large">
+          Generate Reviews
+        </Button>
+      </Space.Compact>
     </div>
   );
 };

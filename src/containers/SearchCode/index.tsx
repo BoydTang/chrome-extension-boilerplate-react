@@ -1,13 +1,14 @@
 import React from 'react';
 import json from '../../node_script/translation/result.json';
 import './SearchCode.css';
+import { Button, Input, Space, Flex } from 'antd';
 
 export const SearchCode = () => {
-  console.log('json', json);
-
+  const [searchStr, setSearchStr] = React.useState('');
+  const onInput = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchStr(e.target.value);
+  };
   const handleSearch = () => {
-    const searchStr = (document.getElementById('searchStr') as HTMLInputElement)
-      .value;
     const result = json.filter((item) => {
       return item.value === searchStr;
     });
@@ -32,16 +33,23 @@ export const SearchCode = () => {
   };
   return (
     <div className="SearchCode">
-      <div className="searchContainer">
-        <input type="text" id="searchStr" placeholder="Search text..." />
-        <button className="search" onClick={handleSearch}>
-          Search
-        </button>
-        <button className="copy" onClick={handleCopy}>
-          Copy
-        </button>
-      </div>
-      <textarea name="" id="formatResult"></textarea>
+      <Flex gap="small" vertical>
+        <Space.Compact style={{ width: '100%' }}>
+          <Input
+            defaultValue={searchStr}
+            onChange={onInput}
+            size="large"
+            type="text"
+          />
+          <Button type="primary" onClick={handleSearch} size="large">
+            Search
+          </Button>
+          <Button type="primary" onClick={handleCopy} size="large">
+            Copy
+          </Button>
+        </Space.Compact>
+        <textarea name="" id="formatResult"></textarea>
+      </Flex>
     </div>
   );
 };

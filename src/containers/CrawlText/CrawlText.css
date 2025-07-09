@@ -1,7 +1,8 @@
 #result,
 #formatResult {
-  width: 285px;
+  width: 280px;
   height: 420px;
+  outline: #1668dc !important;
 }
 
 .Container {
@@ -11,18 +12,18 @@
   justify-content: flex-start;
 }
 
-#selector {
+/* #selector {
   height: 36px;
   width: 80%;
   margin-bottom: 10px;
-}
+} */
 
-button {
+/* button {
   height: 36px;
   width: 120px;
   margin-right: 10px;
-}
+} */
 
-.actionButton {
+/* .actionButton {
   margin-bottom: 10px;
-}
+} */

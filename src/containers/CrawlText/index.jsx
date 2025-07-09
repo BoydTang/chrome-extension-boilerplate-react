@@ -1,11 +1,22 @@
 import React from 'react';
 import './CrawlText.css';
 import { generateUniqueKey } from './util';
+import { Button, Input, Space, Flex, Row, Col } from 'antd';
 
 const CrawlText = () => {
   const [fullText, setFullText] = React.useState('');
   const [allText, setAllText] = React.useState([]);
   const [currentPathname, setCurrentPathname] = React.useState('');
+  const [selector, setSelector] = React.useState('.Polaris-Frame__Content');
+
+  const handleSelectorChange = (e) => {
+    const value = e.target.value.trim();
+    if (value) {
+      setSelector(value);
+    } else {
+      alert('Please enter a valid selector');
+    }
+  };
   const handleGetAllText = () => {
     // 获取当前活动标签页
     chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
@@ -15,7 +26,7 @@ const CrawlText = () => {
         {
           action: 'extractText',
           data: {
-            selector: document.getElementById('selector').value ?? '',
+            selector: selector ?? '',
           },
         },
         function (response) {
@@ -35,7 +46,7 @@ const CrawlText = () => {
             const text = currentText?.join('\n');
             resultDiv.value = text;
           } else {
-            resultDiv.textContent = '无法提取文本，请确保页面已完全加载。';
+            alert('无法提取文本，请确保页面已完全加载。');
           }
         }
       );
@@ -101,34 +112,51 @@ const CrawlText = () => {
   };
   return (
     <div className="CrawlText">
-      <input
-        type="text"
-        id="selector"
-        placeholder="Please enter a valid selector(default: .Polaris-Frame__Content)"
-      />
-      <div className="actionButton">
-        <button onClick={handleGetAllText}>
-          Get all text in current pages
-        </button>
-        <button onClick={handleCopy}>Copy all origin text in the left</button>
-        <button onClick={handleFormatAndCopy}>format text for meerkat</button>
-        <button onClick={handleDownload}>
-          Download format text for meerkat
-        </button>
-      </div>
-      <div className="Container">
-        <textarea
-          name="result"
-          id="result"
-          onChange={handleChange}
-          placeholder="Origin text"
-        ></textarea>
-        <textarea
-          name="formatResult"
-          id="formatResult"
-          placeholder="Format text"
-        ></textarea>
-      </div>
+      <Flex gap="small" vertical>
+        <Space.Compact style={{ width: '100%' }}>
+          <Input
+            defaultValue={selector}
+            onChange={handleSelectorChange}
+            size="large"
+          />
+          <Button type="primary" onClick={handleGetAllText} size="large">
+            Get all text
+          </Button>
+        </Space.Compact>
+        <Flex gap="small" wrap>
+          <Button size="middle" onClick={handleCopy} ghost type="primary">
+            Copy origin text
+          </Button>
+          <Button
+            size="middle"
+            onClick={handleFormatAndCopy}
+            ghost
+            type="primary"
+          >
+            Format text
+          </Button>
+          <Button size="middle" onClick={handleDownload} ghost type="primary">
+            Download
+          </Button>
+        </Flex>
+        <Row>
+          <Col span={12}>
+            <textarea
+              name="result"
+              id="result"
+              onChange={handleChange}
+              placeholder="Origin text"
+            ></textarea>
+          </Col>
+          <Col span={12}>
+            <textarea
+              name="formatResult"
+              id="formatResult"
+              placeholder="Format text"
+            ></textarea>
+          </Col>
+        </Row>
+      </Flex>
     </div>
   );
 };

@@ -3,40 +3,34 @@ import './Popup.css';
 import { CrawlText } from '../../containers/CrawlText';
 import { SearchCode } from '../../containers/SearchCode';
 import { GenerateProductReviews } from '../../containers/GenerateProductReviews';
+import { Tabs } from 'antd';
 
 const Popup = () => {
   const [activeTab, setActiveTab] = React.useState('generate_product_reviews');
+  const items = [
+    {
+      key: 'extract_text',
+      label: 'Extract Text',
+      children: <CrawlText />,
+    },
+    {
+      key: 'search_code',
+      label: 'Search Translate Key',
+      children: <SearchCode />,
+    },
+    {
+      key: 'generate_product_reviews',
+      label: 'Generate Product Reviews',
+      children: <GenerateProductReviews />,
+    },
+  ];
+
+  const onChange = (key) => {
+    setActiveTab(key);
+  };
   return (
     <div className="App">
-      <div>
-        <button
-          onClick={() => {
-            setActiveTab('extract_text');
-          }}
-          className={activeTab === 'extract_text' ? 'active' : ''}
-        >
-          Extract text
-        </button>
-        <button
-          onClick={() => {
-            setActiveTab('search_code');
-          }}
-          className={activeTab === 'search_code' ? 'active' : ''}
-        >
-          Search code
-        </button>
-        <button
-          onClick={() => {
-            setActiveTab('generate_product_reviews');
-          }}
-          className={activeTab === 'generate_product_reviews' ? 'active' : ''}
-        >
-          Mock Product Reviews
-        </button>
-      </div>
-      {activeTab === 'extract_text' && <CrawlText />}
-      {activeTab === 'search_code' && <SearchCode />}
-      {activeTab === 'generate_product_reviews' && <GenerateProductReviews />}
+      <Tabs defaultActiveKey={activeTab} items={items} onChange={onChange} />
     </div>
   );
 };
