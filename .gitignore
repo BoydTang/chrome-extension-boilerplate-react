@@ -22,3 +22,4 @@
 
 # secrets
 secrets.*.js
+src/node_script/mock_reviews/generated_reviews.csv

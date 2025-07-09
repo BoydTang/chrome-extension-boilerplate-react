@@ -1,5 +1,5 @@
 import React from 'react';
-import json from '../../contents/result.json';
+import json from '../../node_script/translation/result.json';
 import './SearchCode.css';
 
 export const SearchCode = () => {
