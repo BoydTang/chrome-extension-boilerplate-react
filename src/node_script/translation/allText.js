@@ -8935,6 +8935,18 @@ const allTexts = [
     key: 'YOU_AR_E5D86E',
     value: `You are importing too frequently. Please wait and try again.`,
   },
+  {
+    key: 'WE_SUP_70B73B',
+    value: `We support uploading CSV files from many reviews apps.`,
+  },
+  {
+    key: 'IF_YOU_31FEE5',
+    value: `If your app is not listed, select "Use {{AfterShip_Reviews}} template" from the dropdown and follow the instructions.`,
+  },
+  {
+    key: 'USE_AF_AD4FFF',
+    value: `Use {{AfterShip_Reviews}} template`,
+  },
 ];
 
 module.exports = {

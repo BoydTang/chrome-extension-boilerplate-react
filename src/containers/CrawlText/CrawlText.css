@@ -4,26 +4,3 @@
   height: 420px;
   outline: #1668dc !important;
 }
-
-.Container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-/* #selector {
-  height: 36px;
-  width: 80%;
-  margin-bottom: 10px;
-} */
-
-/* button {
-  height: 36px;
-  width: 120px;
-  margin-right: 10px;
-} */
-
-/* .actionButton {
-  margin-bottom: 10px;
-} */
