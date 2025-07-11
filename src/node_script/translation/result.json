@@ -7382,5 +7382,41 @@
   {
     "key": "USE_AF_AD4FFF",
     "value": "Use {{AfterShip_Reviews}} template"
+  },
+  {
+    "key": "HOW_TO_E4E2AA",
+    "value": "how to import CSV files"
+  },
+  {
+    "key": "TO_LEA_0DAB7F",
+    "value": "To learn what each field in the template refers to, view"
+  },
+  {
+    "key": "1_DOWN_BF6CED",
+    "value": "1. Download the error file"
+  },
+  {
+    "key": "2_CORR_825610",
+    "value": "2. Correct errors and upload"
+  },
+  {
+    "key": "3_IMPO_FC5DF7",
+    "value": "3. Import reviews"
+  },
+  {
+    "key": "DOWNLO_AD7F61",
+    "value": "Download and continue"
+  },
+  {
+    "key": "STEP_1_F54BC5",
+    "value": "Step 1:"
+  },
+  {
+    "key": "STEP_2_CA381F",
+    "value": "Step 2:"
+  },
+  {
+    "key": "UPLOAD_AE6EE0",
+    "value": "Upload the CSV file here. Duplicate reviews won’t be imported."
   }
 ]
