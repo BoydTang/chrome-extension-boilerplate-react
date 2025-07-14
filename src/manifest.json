@@ -24,5 +24,6 @@
       "matches": []
     }
   ],
+  "host_permissions": ["<all_urls>"],
   "permissions": ["downloads"]
 }

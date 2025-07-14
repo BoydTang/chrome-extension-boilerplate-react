@@ -23,3 +23,4 @@
 # secrets
 secrets.*.js
 src/node_script/mock_reviews/generated_reviews.csv
+src/node_script/translation/dev.env.js

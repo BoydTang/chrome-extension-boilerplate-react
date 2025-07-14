@@ -77,7 +77,7 @@ const CrawlText = () => {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `${path}.txt`;
+    a.download = `${path}.json`;
     a.click();
     URL.revokeObjectURL(url);
   };
