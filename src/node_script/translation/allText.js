@@ -8983,6 +8983,10 @@ const allTexts = [
     key: 'UPLOAD_AE6EE0',
     value: `Upload the CSV file here. Duplicate reviews won’t be imported.`,
   },
+  {
+    key: 'CSV_HE_C89830',
+    value: `CSV headers do not match the required format. Check that you've uploaded the correct file and try again.`,
+  },
 ];
 
 module.exports = {
