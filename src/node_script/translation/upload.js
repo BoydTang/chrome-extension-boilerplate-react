@@ -3,8 +3,16 @@ const axios = require('axios');
 const { AM_API_KEY, auth } = require('./dev.env.js');
 const fs = require('fs');
 
-const auto_translate_language_codes = ['de', 'es', 'fr', 'it', 'ja'];
-const reviews_variant_id = '130baf015dce436d856085b4a88269d5';
+const auto_translate_language_codes = [
+  'de',
+  'es',
+  'fr',
+  'it',
+  'ja',
+  'zh-Hans',
+  'zh-Hant',
+];
+const reviews_variant_id = '54e4c80f33ea43b4ad91d787846ae2db';
 const reviews_project_code = 'reviews';
 
 const handleUploadToMeerkat = (key, text) => {

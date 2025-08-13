@@ -7422,5 +7422,61 @@
   {
     "key": "CSV_HE_C89830",
     "value": "CSV headers do not match the required format. Check that you've uploaded the correct file and try again."
+  },
+  {
+    "key": "ADD_LA_4DAC8A",
+    "value": "Add languages to auto-translate static content in widgets, forms, and emails into a customer's preferred store language."
+  },
+  {
+    "key": "NOTE_T_4825A4",
+    "value": "Note: To auto-translate dynamic content (e.g. customer reviews), enable AI auto-translation."
+  },
+  {
+    "key": "USED_W_E69AAA",
+    "value": "Used when a customer's language doesn't match any of your published languages."
+  },
+  {
+    "key": "ADD_AN_9E25AA",
+    "value": "Add and publish languages to make them visible to customers. If you can’t find a language,"
+  },
+  {
+    "key": "AND_WE_9E1972",
+    "value": "and we’ll help you add it."
+  },
+  {
+    "key": "AI_AUT_AD141E",
+    "value": "AI auto-translation"
+  },
+  {
+    "key": "AUTOTR_CF0EE6",
+    "value": "Auto-translate dynamic content (reviews, questions, forms, etc.) into the customer's selected language. Emails still need to be translated manually."
+  },
+  {
+    "key": "AI_AUT_F40134",
+    "value": "AI auto-translation in progress. This might take up to {{prepare_hours}} hours to complete."
+  },
+  {
+    "key": "PUBLIS_278BBE",
+    "value": "Publish a language to enable AI translation for that language. It might take some time for all content to be translated."
+  },
+  {
+    "key": "AI_AUT_C66F86",
+    "value": "AI auto-translation enabled, it might take up to {{Translate_Prepare_Hours}} hours to translate content"
+  },
+  {
+    "key": "LANGUA_4EC494",
+    "value": "{{language}} published, content for {{language}} customers will be AI auto-translated"
+  },
+  {
+    "key": "LANGUA_44EB4B",
+    "value": "{{language}} unpublished and will no longer be AI auto-translated"
+  },
+  {
+    "key": "AI_AUT_AA78D1",
+    "value": "AI auto-translation disabled"
+  },
+  {
+    "key": "CONTAC_132170",
+    "value": "contact us"
   }
 ]

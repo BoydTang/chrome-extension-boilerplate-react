@@ -6,7 +6,7 @@ import { GenerateProductReviews } from '../../containers/GenerateProductReviews'
 import { Tabs } from 'antd';
 
 const Popup = () => {
-  const [activeTab, setActiveTab] = React.useState('generate_product_reviews');
+  const [activeTab, setActiveTab] = React.useState('search_code');
   const items = [
     {
       key: 'extract_text',
