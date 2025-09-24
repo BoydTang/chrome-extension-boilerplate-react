@@ -1,5 +1,73 @@
 [
   {
+    "key": "ORDERS_59C87A",
+    "value": "Orders fulfilled between"
+  },
+  {
+    "key": "SEND_T_8C2F44",
+    "value": "Send to single recipient"
+  },
+  {
+    "key": "SEND_T_A77ABD",
+    "value": "Send to multiple recipients by CSV"
+  },
+  {
+    "key": "SEND_R_4F066D",
+    "value": "Send review request to a single recipient"
+  },
+  {
+    "key": "SEND_R_63D8AC",
+    "value": "Send review requests to multiple recipients by CSV"
+  },
+  {
+    "key": "SCHEDU_05A538",
+    "value": "Schedule"
+  },
+  {
+    "key": "DATE_69B2E0",
+    "value": "Date"
+  },
+  {
+    "key": "TIME_2538F5",
+    "value": "Time"
+  },
+  {
+    "key": "TIMEZO_45B74D",
+    "value": "Timezone"
+  },
+  {
+    "key": "CHOOSE_9DFED7",
+    "value": "Choose a time in the future up to 7 days from today."
+  },
+  {
+    "key": "BACK_7F18EF",
+    "value": "Back"
+  },
+  {
+    "key": "EMAILS_359052",
+    "value": "Emails are being sent, try again later"
+  },
+  {
+    "key": "EMAILS_6C59E2",
+    "value": "Emails are being scheduled, try again later"
+  },
+  {
+    "key": "THE_OR_A07E98",
+    "value": "The \"Order delivery time\" trigger requires an {{AfterShip_Tracking}} subscription."
+  },
+  {
+    "key": "WERE_S_B869B0",
+    "value": "We're scheduling emails now. This might take a while depending on the number of emails."
+  },
+  {
+    "key": "EMAILS_D512C1",
+    "value": "Emails for {{order_count}} orders were scheduled successfully. {{skipped_count}} orders were skipped. Emails will be sent on {{schedule_date}}"
+  },
+  {
+    "key": "EMAILS_E41D60",
+    "value": "Emails failed to be scheduled. Try scheduling them again."
+  },
+  {
     "key": "DISCOU_A37C54",
     "value": "DISCOUNT"
   },
@@ -5564,10 +5632,6 @@
     "value": "Try {{Tracking}}"
   },
   {
-    "key": "BACK_0557FA",
-    "value": "Back"
-  },
-  {
     "key": "GOT_IT_73C685",
     "value": "Got it"
   },
@@ -7478,5 +7542,41 @@
   {
     "key": "CONTAC_132170",
     "value": "contact us"
+  },
+  {
+    "key": "AI_AUT_268DCC",
+    "value": "AI auto-translation in progress. This might take up to {{Translate_Prepare_Hours}} hours to complete."
+  },
+  {
+    "key": "INVITE_7DBA0E",
+    "value": "Invite past customers to submit reviews"
+  },
+  {
+    "key": "SEND_R_79A897",
+    "value": "Send review requests to past customers based on:"
+  },
+  {
+    "key": "ORDER_91A487",
+    "value": "Order delivery time"
+  },
+  {
+    "key": "ORDERS_B5CB49",
+    "value": "Orders delivered between"
+  },
+  {
+    "key": "TO_B18ADB",
+    "value": "to"
+  },
+  {
+    "key": "AGO_97E11B",
+    "value": "ago"
+  },
+  {
+    "key": "ORDER_A2E28C",
+    "value": "Order fulfillment time"
+  },
+  {
+    "key": "NOTE_W_F20E2B",
+    "value": "Note: We'll skip any orders that match your exclusion rules or have already received review requests."
   }
 ]

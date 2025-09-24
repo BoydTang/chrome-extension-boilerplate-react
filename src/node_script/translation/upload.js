@@ -5,14 +5,27 @@ const fs = require('fs');
 
 const auto_translate_language_codes = [
   'de',
-  'es',
-  'fr',
-  'it',
   'ja',
   'zh-Hans',
   'zh-Hant',
+  'nl',
+  'pl',
+  'tr',
+  'da',
+  'pt',
+  'pt-pt',
+  'cs',
+  'sk',
+  'es',
+  'fr',
+  'nb',
+  'sv',
+  'ar',
+  'ko',
+  'fr-ca',
+  'it',
 ];
-const reviews_variant_id = '54e4c80f33ea43b4ad91d787846ae2db';
+const reviews_variant_id = '74f7c381797f4ce082944e5e7d377980';
 const reviews_project_code = 'reviews';
 
 const handleUploadToMeerkat = (key, text) => {
