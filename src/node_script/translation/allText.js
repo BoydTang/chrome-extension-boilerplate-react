@@ -57,6 +57,11 @@ const allTexts = [
       'The "Order delivery time" trigger requires an {{AfterShip_Tracking}} subscription.',
   },
   {
+    key: 'EMAILS_E85C44',
+    value:
+      'Emails for {{order_count}} orders were sent successfully. {{skipped_count}} orders were skipped.',
+  },
+  {
     key: 'WERE_S_B869B0',
     value:
       "We're scheduling emails now. This might take a while depending on the number of emails.",

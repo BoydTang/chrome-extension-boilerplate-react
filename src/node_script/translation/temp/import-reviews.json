@@ -1,6 +1,6 @@
 [
   {
-    "key": "ORDERS_B93634",
-    "value": "Orders fulfilled between"
+    "key": "EMAILS_E85C44",
+    "value": "Emails for {{order_count}} orders were sent successfully. {{skipped_count}} orders were skipped."
   }
 ]
