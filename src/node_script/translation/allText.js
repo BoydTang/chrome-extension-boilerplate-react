@@ -1,4 +1,102 @@
 const allTexts = [
+  // start ai review summary
+  {
+    key: 'AI_REV_278EE7',
+    value: 'AI review summaries',
+  },
+  {
+    key: 'SHOW_A_506326',
+    value:
+      'Show AI-generated summaries of your product reviews to give shoppers quick, scannable insights that inform their purchases.',
+  },
+  {
+    key: 'ONCE_E_FDF545',
+    value:
+      'Once enabled, AI summaries may take up to 24 hours to appear depending on review volume.',
+  },
+  {
+    key: 'MAKE_S_79E0F3',
+    value: 'Make sure you\'ve selected the "Show" option on your',
+  },
+  {
+    key: 'REVIEW_C5049C',
+    value: 'Reviews widget',
+  },
+  {
+    key: 'ENABLE_77BD2B',
+    value: 'Enable AI review summaries on Reviews widget',
+  },
+  {
+    key: 'TO_DIS_C2ED1A',
+    value:
+      'To display AI review summaries on your store, go to your Reviews widget and select the "Show" option.',
+  },
+  {
+    key: 'LATER_272069',
+    value: 'Later',
+  },
+  {
+    key: 'OPEN_R_62D55F',
+    value: 'Open Reviews widget',
+  },
+  {
+    key: 'TITLE_823DC9',
+    value: 'Title',
+  },
+  {
+    key: 'AI_REV_7E9D83',
+    value: 'AI review summary',
+  },
+  {
+    key: 'YOU_NE_35D5FD',
+    value: 'You need to enable',
+  },
+  {
+    key: 'AI_REV_F27758',
+    value: 'AI review summaries',
+  },
+  {
+    key: 'TO_SHO_6093F0',
+    value: 'to show them on your store.',
+  },
+  {
+    key: 'FROM_P_E5C960',
+    value: 'From product group "{{product_group}}"',
+  },
+  {
+    key: 'AI_REV_8FA03C',
+    value: 'AI review summaries enabled',
+  },
+  {
+    key: 'AI_REV_9E06DD',
+    value: 'AI review summaries disabled',
+  },
+  {
+    key: 'NOT_EN_B93B71',
+    value: 'Not enough published reviews to generate an AI summary.',
+  },
+  {
+    key: 'ENABLE_3E9E54',
+    value: 'Enable AI review summaries',
+  },
+  {
+    key: 'ENABLE_A59D3A',
+    value:
+      'Enable AI review summaries to shown them on your store. If this is your first time enabling, it may take up to 24 hours to generate summaries depending on your review volume.',
+  },
+  {
+    key: 'CANCEL_2BEB0B',
+    value: 'Cancel',
+  },
+  {
+    key: 'ENABLE_19F2A9',
+    value: 'Enable',
+  },
+  {
+    key: 'CLOSE_D1BCDA',
+    value: 'Close',
+  },
+  // end ai review summary
   {
     key: 'ORDERS_59C87A',
     value: 'Orders fulfilled between',

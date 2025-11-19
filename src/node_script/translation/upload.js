@@ -1,32 +1,17 @@
 const { decode } = require('./authorization');
 const axios = require('axios');
-const { AM_API_KEY, auth } = require('./dev.env.js');
+const {
+  AM_API_KEY,
+  auth,
+  variant_id,
+  project_code,
+  language_codes,
+} = require('./dev.env.js');
 const fs = require('fs');
 
-const auto_translate_language_codes = [
-  'de',
-  'ja',
-  'zh-Hans',
-  'zh-Hant',
-  'nl',
-  'pl',
-  'tr',
-  'da',
-  'pt',
-  'pt-pt',
-  'cs',
-  'sk',
-  'es',
-  'fr',
-  'nb',
-  'sv',
-  'ar',
-  'ko',
-  'fr-ca',
-  'it',
-];
-const reviews_variant_id = '74f7c381797f4ce082944e5e7d377980';
-const reviews_project_code = 'reviews';
+const auto_translate_language_codes = language_codes;
+const reviews_variant_id = variant_id;
+const reviews_project_code = project_code;
 
 const handleUploadToMeerkat = (key, text) => {
   if (!key || !text) {
