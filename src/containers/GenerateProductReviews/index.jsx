@@ -1,12 +1,21 @@
 import React, { useState } from 'react';
-import { generateCSV } from '../../node_script/mock_reviews/utils';
-import { Button, Input, Form } from 'antd';
+import {
+  generateCSV,
+  handles as allHandles,
+} from '../../node_script/mock_reviews/utils';
+import { Button, Input, Form, Checkbox, Select } from 'antd';
 
 export const GenerateProductReviews = () => {
   const [form] = Form.useForm();
   const [count, setCount] = useState(10);
   const [content, setContent] = useState('');
-  const [handle, setHandle] = useState('');
+  const [handles, setHandles] = useState([]);
+  const [onlyPublished, setOnlyPublished] = useState(false);
+  const options = allHandles.map((handle) => ({
+    label: handle,
+    value: handle,
+  }));
+
   const handleOnChangeCount = (event) => {
     const value = event.target.value;
     if (!isNaN(value) && value >= 0) {
@@ -19,14 +28,25 @@ export const GenerateProductReviews = () => {
     const value = event.target.value;
     setContent(value);
   };
-  const handleOnChangeHandle = (event) => {
-    const value = event.target.value;
-    setHandle(value);
+
+  const handleHandlesChange = (value) => {
+    console.log(`Selected handles: ${value}`);
+    setHandles(value);
+  };
+
+  const handleOnChangePublishedStatus = (event) => {
+    const value = event.target.checked;
+    setOnlyPublished(value);
   };
 
   const handleGenerateReviews = () => {
     console.log(`Generating ${count} product reviews...`);
-    const generatedContent = generateCSV(count, content, handle);
+    const generatedContent = generateCSV(
+      count,
+      content,
+      handles,
+      onlyPublished
+    );
     const blob = new Blob([generatedContent], {
       type: 'text/csv;charset=utf-8',
     });
@@ -68,13 +88,22 @@ export const GenerateProductReviews = () => {
             type="text"
           />
         </Form.Item>
-        <Form.Item label="Handle" name="handle">
-          <Input
-            defaultValue={handle}
-            onChange={handleOnChangeHandle}
-            size="large"
-            type="text"
+        <Form.Item label="Handles" name="handles">
+          <Select
+            mode="tags"
+            style={{ width: '100%' }}
+            onChange={handleHandlesChange}
+            tokenSeparators={[',']}
+            options={options}
           />
+        </Form.Item>
+        <Form.Item label="Published status" name="publishedStatus">
+          <Checkbox
+            defaultChecked={onlyPublished}
+            onChange={handleOnChangePublishedStatus}
+          >
+            Only Published
+          </Checkbox>
         </Form.Item>
         <Form.Item>
           <Button type="primary" onClick={handleGenerateReviews} size="large">
