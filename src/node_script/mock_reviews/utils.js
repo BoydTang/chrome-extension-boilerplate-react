@@ -38,7 +38,7 @@ const headers = [
 
 const single_product_reviews_count = 2; // 每个 handle 生成的评论数量
 
-const generateReview = (handle) => {
+const generateReview = (handle, content) => {
   const reviews = [];
   for (let i = 0; i < headers.length; i++) {
     const header = headers[i];
@@ -57,7 +57,7 @@ const generateReview = (handle) => {
         value = `Review Title ${Math.floor(Math.random() * 100)}`;
         break;
       case 'content':
-        value = `This is a review content for ${handle}.`;
+        value = content || `This is a review content for ${handle}.`;
         break;
       case 'author_country':
         value = 'USA';
@@ -92,29 +92,43 @@ const generateReview = (handle) => {
   }
   return reviews;
 };
-const generateReviews = (count = single_product_reviews_count) => {
+const generateReviews = (
+  count = single_product_reviews_count,
+  content,
+  handle
+) => {
   const reviewsBody = [];
-  // 每个 handle 生成 1000 条评论
-  for (let i = 0; i < handles.length; i++) {
-    const handle = handles[i];
+  if (handle) {
     const handleReviews = [];
     for (let j = 0; j < count; j++) {
-      // 生成评论内容
-      const review = generateReview(handle);
+      const review = generateReview(handle, content);
       handleReviews.push(review);
     }
     reviewsBody.push(handleReviews);
+    return reviewsBody;
+  } else {
+    // 每个 handle 生成 1000 条评论
+    for (let i = 0; i < handles.length; i++) {
+      const handle = handles[i];
+      const handleReviews = [];
+      for (let j = 0; j < count; j++) {
+        // 生成评论内容
+        const review = generateReview(handle, content);
+        handleReviews.push(review);
+      }
+      reviewsBody.push(handleReviews);
+    }
+    return reviewsBody;
   }
-  return reviewsBody;
 };
 
-const generateCSV = (count) => {
-  const reviewsBody = generateReviews(count)?.flat();
+const generateCSV = (count, content, handle) => {
+  const reviewsBody = generateReviews(count, content, handle)?.flat();
   console.log(`------------> reviewsBody total lines`, reviewsBody?.length);
-  const content = [headers, ...reviewsBody]
+  const csvContent = [headers, ...reviewsBody]
     .map((row) => row.join(','))
     .join('\n');
-  return content;
+  return csvContent;
 };
 
 export {
