@@ -1,4 +1,243 @@
 const allTexts = [
+  // onboarding
+  {
+    key: 'IMPORT_44E04D',
+    value: 'Import using {{AfterShip_Reviews}} template',
+  },
+  {
+    key: 'IMPORT_76E2F8',
+    value: 'Import from third-party app',
+  },
+  {
+    key: 'WE_SUP_C81F1D',
+    value: 'We support uploading CSV files from many reviews apps.',
+  },
+  {
+    key: 'IMPORT_343653',
+    value: 'Import from {{AliExpress}}',
+  },
+  {
+    key: 'IMPORT_B4BE3B',
+    value: 'Import your existing reviews',
+  },
+  {
+    key: 'IF_YOU_8D8DA3',
+    value:
+      'If you have existing reviews from elsewhere, you can import them now to showcase valuable customer feedback on your store immediately.',
+  },
+  {
+    key: 'IMPORT_220369',
+    value: 'Import using AfterShip Reviews template',
+  },
+  {
+    key: 'USE_TH_B48B10',
+    value:
+      'Use this template to import reviews from any unsupported third-party app.',
+  },
+  {
+    key: 'IMPORT_314DC0',
+    value: 'Import from other apps',
+  },
+  {
+    key: 'WE_SUP_88ED0F',
+    value: 'We support uploading CSV files from many reviews apps.',
+  },
+  {
+    key: 'IMPORT_2BAF0D',
+    value: 'Import from AliExpress',
+  },
+  {
+    key: 'DRAG_T_732D18',
+    value:
+      'Drag the "Import Reviews" button to your browser’s bookmark toolbar and install the widget at AliExpress.',
+  },
+  {
+    key: 'INVITE_886943',
+    value:
+      'Invite recent customers to submit reviews to build your social proof and inspire new sales.',
+  },
+  {
+    key: 'INVITE_2138AE',
+    value: 'Invite past customers to submit reviews',
+  },
+  {
+    key: 'EMAIL_1C7308',
+    value: 'Email trigger',
+  },
+  {
+    key: 'BASED_453DFB',
+    value: 'Based on order delivery time',
+  },
+  {
+    key: 'BASED_7716E6',
+    value: 'Based on order fulfillment time',
+  },
+  {
+    key: 'SEND_T_F3E235',
+    value: 'Send time',
+  },
+  {
+    key: 'SEND_N_BA90AD',
+    value: 'Send now',
+  },
+  {
+    key: 'SCHEDU_CA683F',
+    value: 'Schedule',
+  },
+  {
+    key: 'CANT_D_9F4C45',
+    value:
+      'Can\'t detect the Reviews widget in the "{{theme_name}}" theme. Try again and remember to save.',
+  },
+  {
+    key: 'ADD_TH_34E840',
+    value: 'Add the reviews widget to your product page',
+  },
+  {
+    key: 'TO_ADD_4ACB08',
+    value: 'To add this widget to your store:',
+  },
+  {
+    key: 'CLICK_A9DB1D',
+    value:
+      'Click "Install now". Your Shopify theme editor will open in a new tab and automatically add the widget to your default product page.',
+  },
+  {
+    key: 'MOVE_T_B602C3',
+    value: 'Move the widget to where you want it to appear.',
+  },
+  {
+    key: 'CLICK_9D79FF',
+    value: 'Click "Save".',
+  },
+  {
+    key: 'TO_USE_FF7AAB',
+    value: 'To use this feature, enable review request emails first',
+  },
+  {
+    key: 'IF_FOR_74E4C9',
+    value:
+      "If for any reason we can't receive an order's shipment info, the trigger will default to the order fulfillment time",
+  },
+  {
+    key: 'FALLBA_3D257D',
+    value: 'Fallback setting',
+  },
+  {
+    key: 'ENABLE_A193C5',
+    value: 'Enable automatic review requests',
+  },
+  {
+    key: 'AUTOMA_F4775D',
+    value:
+      'Automate review collection by sending review request emails after each customer purchase.',
+  },
+  {
+    key: 'SEND_I_CF97D3',
+    value: 'Send initial email',
+  },
+  {
+    key: 'AFTER_05E56C',
+    value: 'After order delivery',
+  },
+  {
+    key: 'AFTER_2FC4DF',
+    value: 'After order fulfillment',
+  },
+  {
+    key: 'DAYS_2338F2',
+    value: 'day(s)',
+  },
+  {
+    key: 'AFTER_7D7573',
+    value: 'after order fulfillment',
+  },
+  {
+    key: 'SEND_R_1F174C',
+    value: 'Send reminder email',
+  },
+  {
+    key: 'DAYS_A_D7FF2D',
+    value: 'days after initial email sent',
+  },
+  {
+    key: 'WE_REC_D55D3B',
+    value:
+      'We recommend sending a reminder 5 to 30 days after the initial email.',
+  },
+  {
+    key: 'WELCOM_F9903D',
+    value: 'Welcome to {{AfterShip_Reviews}}! 🎉',
+  },
+  {
+    key: 'READY_4A9F3C',
+    value: 'Ready to collect reviews and display them in your store?',
+  },
+  {
+    key: 'LETS_G_9A645E',
+    value: "Let's get started",
+  },
+  {
+    key: 'SET_UP_8CF18F',
+    value: 'Set up reviews widget',
+  },
+  {
+    key: 'AUTOMA_C40551',
+    value: 'Automate review collection',
+  },
+  {
+    key: 'IMPORT_65DFE0',
+    value: 'Import existing reviews',
+  },
+  {
+    key: 'ENABLE_926126',
+    value: 'Enable reviews widget',
+  },
+  {
+    key: 'BUILD_2E46E1',
+    value:
+      'Build trust with customers by adding a customizable reviews widget to your store.',
+  },
+  {
+    key: 'WIDGET_4138A8',
+    value: 'widget layout',
+  },
+  {
+    key: 'SPLIT_BC440E',
+    value: 'Split',
+  },
+  {
+    key: 'SLIDER_BCED8E',
+    value: 'Slider',
+  },
+  {
+    key: 'GRID_4A5808',
+    value: 'Grid',
+  },
+  {
+    key: 'LIST_308679',
+    value: 'List',
+  },
+  {
+    key: 'BRAND_6AA3F3',
+    value: 'Brand colors',
+  },
+  {
+    key: 'STARS_12A529',
+    value: 'Stars',
+  },
+  {
+    key: 'BACKGR_98C058',
+    value: 'Background',
+  },
+  {
+    key: 'BUTTON_C25D44',
+    value: 'Button',
+  },
+  {
+    key: 'NEXT_E1413A',
+    value: 'Next',
+  },
   // start ai review summary
   {
     key: 'AI_REV_278EE7',

@@ -1,22 +1,6 @@
 [
   {
-    "key": "ENABLE_3E9E54",
-    "value": "Enable AI review summaries"
-  },
-  {
-    "key": "ENABLE_A59D3A",
-    "value": "Enable AI review summaries to shown them on your store. If this is your first time enabling, it may take up to 24 hours to generate summaries depending on your review volume."
-  },
-  {
-    "key": "CANCEL_2BEB0B",
-    "value": "Cancel"
-  },
-  {
-    "key": "ENABLE_19F2A9",
-    "value": "Enable"
-  },
-  {
-    "key": "CLOSE_D1BCDA",
-    "value": "Close"
+    "key": "IMPORT_44E04D",
+    "value": "Import using {{AfterShip_Reviews}} template"
   }
 ]
